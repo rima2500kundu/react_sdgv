@@ -1,8 +1,11 @@
 // import './App.css';
 import Person from "./Components/Person";
-import Man from "./Components/Man";
+import Age from "./Components/Age";
 
 function App() {
+    buttonClicHandler = () => {
+        alert("hello");
+    }
   return (
     <>
       {/* <header className="full_width main_header navbar-fixed-top sticky" id="header">
@@ -789,8 +792,12 @@ function App() {
           </div>
       </footer> */}
 
-      <Person />
-      <Man />
+      {/* <Age number="1"/> */}
+      <Person  name="kashmir" age="20"/>
+      <button type="button" onClick={this.buttonClicHandler}></button>
+      {/* <Person name="Kashmir" age="20"/>
+       <Age number="2"/>
+      <Person name="Rajasthan"/> */}
     </>
   );
 }
