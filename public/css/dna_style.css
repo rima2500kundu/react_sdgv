@@ -1,0 +1,143 @@
+.material {position: relative; transform: rotateZ(-60deg); margin-top: 256px; height: 189px; z-index: 1; overflow: hidden;}
+.Hom_bnr_right_animation{position: relative; display: inline-block; width: 605px; float: right;}
+
+@keyframes rotate {
+0%{transform: rotateX(0deg);}
+100%{transform: rotateX(360deg);}
+}
+
+.dna{position: relative; width: 10px; height: 190px; float: right; border: 1px dotted #e7e7e7; box-shadow: 0 0 15px #e7e7e7; margin: 0px 10px; border: 1px solid #adbabd; animation: rotate 3s linear infinite;}
+.dna::before{content: ''; position: absolute; top: -2px; left: 12px; width: 15px; height: 10px; background: transparent; border-top:1px solid #000; border-bottom: 1px solid #000;
+border-right: 1px solid #c0ddeb; border-left: 1px solid #c0ddeb;}
+.dna::after{content: ''; position: absolute; bottom: -2px; left: 12px; width: 15px; height: 10px; background: transparent; border-top:1px solid #000; border-bottom: 1px solid #000;
+border-right: 1px solid #c0ddeb; border-left: 1px solid #c0ddeb;}
+.dna_color{position: relative; width: 100%; height: 100%; overflow: hidden;}
+.dna_color::before{content:""; position: absolute; width: 39px; left:-20px; height: 45%; top: -5px;  background: url(../images/dna_obs1.png)50% 50%; background-size: 100%; background-repeat: no-repeat;
+transform: rotate(45deg); animation: Up_down 3s infinite; animation-delay: 0.2s;}
+.dna_color::after{content:""; position: absolute; width: 39px; right:-20px; height: 45%; bottom: -5px;  background: url(../images/dna_obs2.png)50% 50%; background-size: 100%; background-repeat: no-repeat;
+transform: rotate(45deg); animation: down_Up 3s infinite; animation-delay: 0.5s;}
+
+@keyframes Up_down {
+0%{transform: translate(0, 0px) rotate(45deg);}
+30%{transform: translate( 0px, 16px) rotate(45deg);}
+70%{transform: translate( 0px, -46px) rotate(45deg);}
+100%{transform: translate(0, 0px) rotate(45deg);}
+}
+
+@keyframes down_Up {
+0%{transform: translate(0, 0px) rotate(45deg);}
+30%{transform: translate( 0px, -16px) rotate(45deg);}
+70%{transform: translate( 0px, 46px) rotate(45deg);}
+100%{transform: translate(0, 0px) rotate(45deg);}
+}
+
+.material svg{position: absolute; right: 0;}
+/* Partical jS----------------- */
+canvas{display:block; vertical-align: bottom;}
+.count-particles{background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px;
+font-family: Helvetica, Arial, sans-serif; font-weight: bold;}
+.js-count-particles{font-size: 1.1em;}
+#stats, .count-particles{-webkit-user-select: none; margin-top: 5px; margin-left: 5px;}
+#stats{border-radius: 3px 3px 0 0; overflow: hidden;}
+.count-particles{border-radius: 0 0 3px 3px;}
+#particles-js{width: 100%; height: 100%; background-image: url(''); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; z-index: 1; position: absolute; left: 0; top: 0;}
+
+/* Motion Css */
+.dashed{stroke-dasharray: 10;}
+.ln1{animation:dash 3s linear backwards; animation-delay:0.1s; stroke-dasharray: 1000; stroke-dashoffset: 1000; animation-duration: 2s; animation-play-state: paused;}
+
+@keyframes dash {
+0%{stroke-dasharray: 100,500;}
+100%{stroke-dashoffset: 100;}
+}
+
+/* Cube Lines Css */
+.USP_bottom_image .cube_design svg line{stroke-width: 0.8px; stroke-dasharray: 50; stroke:#293f4a}
+.USP_bottom_image .cube_design svg .faded_line{stroke-width: 0.3px; stroke:rgb(41 63 74 / 75%)}
+
+/* Cube Lines Animation */
+.USP_bottom_image .cube_design svg line{animation:wid_full 2s linear forwards; animation-delay:3s; animation-play-state: paused;}
+.cube_design{animation:zoom_ot 1s linear forwards; animation-delay:2s; animation-play-state: paused;}
+
+@keyframes wid_full {
+0%{stroke-dasharray: 50;}
+100%{stroke-dasharray: 380;}
+}
+
+@keyframes zoom_ot {
+100%{transform: scale(1); opacity: 1; top: 75px;}
+}
+
+/* piramid_dsgn  */
+.piramid_dsgn{display: flex; position: absolute; top: -65px; left: -60px; right: 0; margin: 0 auto;  width: 152px; justify-content: space-between; animation: zoom_ot2 0.5s ease-in-out forwards;
+transform: scale(0.8); opacity: 0; animation-delay:4s; animation-play-state: paused;}
+
+@keyframes zoom_ot2 {
+100%{transform: scale(1); opacity: 1; top: 7px; width: 135px;}
+}
+
+/* STOP ANIMATION */
+.is-inViewport .ln1, .is-inViewport .USP_bottom_image .cube_design svg line, .is-inViewport .cube_design, .is-inViewport .piramid_dsgn, .is-inViewport .why_sdg_graphics svg path, .is-inViewport  .two_dots img,
+.is-inViewport .We_hrns_image_grp{animation-play-state: running;}
+/* STOP ANIMATION */
+
+/* why_sdg Animation*/
+.why_sdg_graphics svg path{animation:go_line 3s linear forwards; animation-play-state: paused;}
+
+@keyframes go_line {
+0%{stroke-dasharray: 100,5000;}
+100%{stroke-dasharray: 1200;}
+}
+
+.two_dots::before{animation: popin 2s infinite;}
+.two_dots::after{animation: popin 2s infinite;}
+
+@keyframes popin {
+0%{transform:translateX(-50%) scale(0.8);}
+50%{transform:translateX(-50%) scale(1);}
+100%{transform:translateX(-50%) scale(0.8);}
+}
+
+.two_dots img{animation:visible6line 0.8s linear forwards; opacity: 0; animation-play-state: paused;} 
+.why_sdg_row:first-child .two_dots img{animation-delay: 0.4s;}
+.why_sdg_row:nth-child(2) .two_dots img{animation-delay: 0.8s;}
+.why_sdg_row:nth-child(3) .two_dots img{animation-delay: 1.5s;}
+.why_sdg_row:nth-child(4) .two_dots img{animation-delay: 2.5s;}
+
+@keyframes visible6line {
+100%{transform:translateX(-50%) translateY(-50%) scale(1); opacity: 1;}
+}
+
+/* We_hrns_image */
+.We_hrns_image svg circle{animation:draw_line 1s linear forwards;}
+
+@keyframes draw_line {
+0%{stroke-dasharray: 10,5000;}
+100%{stroke-dasharray: 1825;}
+}
+
+.We_hrns_image_grp{animation:zoom_grp 1s linear forwards; animation-play-state: paused; animation-delay: 1s;}
+
+@keyframes zoom_grp {
+100%{transform:translateY(-50%) scale(1); opacity: 1;}
+}
+
+.wings_left{animation: swipe_left 5s infinite;}
+.wings_right{animation: swipe_right 5s infinite;}
+
+@keyframes swipe_left {
+0%{transform:translateY(14%) rotate(360deg);}		
+50%{transform:translateY(14%) rotate(345deg);}		
+100%{transform:translateY(14%) rotate(360deg);}
+}
+
+@keyframes swipe_right {
+0%{transform:translateY(14%) rotate(0deg);}		
+50%{transform:translateY(14%) rotate(15deg);}		
+100%{transform:translateY(14%) rotate(0deg);}
+}
+
+@keyframes round_c {
+0%{transform: rotate(0deg) translateY(0) translateX(40px) rotate(0deg);}
+100%{transform: rotate(360deg) translateY(0) translateX(40px) rotate(-360deg);}
+}
