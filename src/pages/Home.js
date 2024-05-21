@@ -48,7 +48,7 @@ function Home(){
                 </div>
             </section>
 
-            <TrustedSlider title="Trusted Buy" />
+            <TrustedSlider defaultTitle="Trusted Buy" />
 
             <section className="full_width USP_bottom_sec" data-inviewport="scale-in">
                 <div className="container">

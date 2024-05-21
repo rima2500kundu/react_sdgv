@@ -7,7 +7,8 @@ const About = () => {
             <section className="full_width Home_banner">
                 <h2>This is about</h2>
             </section>
-            <TrustedSlider title="About Trusted Buy" />
+            
+            <TrustedSlider defaultTitle="About Trusted Buy" />
         </>
     );
 }

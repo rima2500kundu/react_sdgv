@@ -3,9 +3,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-function TrustedSlider(props) {
-  const {title} = props;
-  // const [name, setName] = useState('');
+function TrustedSlider({defaultTitle}) { // props
+  const [title] = useState(defaultTitle); // use the props value into state
+// simple props
+// function TrustedSlider(props) {
+//   const {title} = props;
 
   var settings = {
       dots: true,
@@ -60,7 +62,7 @@ function TrustedSlider(props) {
       <section className="full_width trusted_by hme_trst_slider">
           <div className="container">
               <div className="text_controller text_controller_center">
-                  <h2>{title}</h2> 
+                  <h2>{defaultTitle}</h2> 
                   <hr />               
               </div>
 
