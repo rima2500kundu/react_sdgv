@@ -1,20 +1,19 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 // https://www.youtube.com/watch?v=SygE7sKjTCk&ab_channel=StillLearning
 
-function Header(props) {
+function Header() {
   return (
     <header className="full_width main_header navbar-fixed-top sticky" id="header">
         <div className="container d-flex">
-            <div className="head_logo"><Link to="/"><img src="images/logo.png" alt="logo" /></Link></div>
+            <div className="head_logo"><NavLink to="/"><img src="images/logo.png" alt="logo" /></NavLink></div>
             <div className="header_links">
                 <ul>
-                    {/* <li><a href="/">About</a></li> */}
-                    <li><Link to="/about">About</Link></li>
+                    <li><NavLink className={`${(navData)=> navData.isActive ? 'active' : ''}`} to="/about">About</NavLink></li>
 
                     <li className="current-menu-item">
-                        <a href="/"> Why SDG</a>
+                        <a href='/'> Why SDG</a>
                         <ul className="sub-menu">
                             <li><a href="how-it-works.html">How It works</a></li>
                             <li><a href="distinct-vetting-process.html">Distinct Vetting Process</a></li>
@@ -103,10 +102,6 @@ function Header(props) {
         </div>
     </header>
   )
-}
-
-Header.propTypes = {
-
 }
 
 export default Header;
