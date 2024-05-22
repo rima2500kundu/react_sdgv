@@ -1,12 +1,14 @@
 import React from "react";
 import TrustedSlider from "../Components/TrustedSlider";
+import TableApi from "../Components/TableApi";
+import InnerBanner from "../Components/InnerBanner";
 
 const About = () => {
     return(
         <>
-            <section className="full_width Home_banner">
-                <h2>This is about</h2>
-            </section>
+            <InnerBanner />
+
+            <TableApi />
             
             <TrustedSlider defaultTitle="About Trusted Buy" />
         </>
