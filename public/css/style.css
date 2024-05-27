@@ -2003,3 +2003,9 @@ display: inline-block; position: absolute; top: -30px; left: 45px;}
 .privacy_accordian .accordion-body h3 {font-size: 1.25rem;}
 .privacy_accordian .accordion-body p {font-family: 'cera_proregular', sans-serif;}
 /* 2024-05-06 */
+
+ul.react-tabs__tab-list{display: flex; justify-content: space-between;}
+.react-tabs__tab-list{border-bottom: 1px solid var(--main_orange);}
+
+
+
