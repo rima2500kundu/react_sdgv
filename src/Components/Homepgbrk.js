@@ -1,6 +1,6 @@
 import React from 'react'
 
-function HomePgbk() {
+function Homepgbrk() {
   return (
     <>
         <section className="full_width home_pgbk fix_padding">
@@ -18,4 +18,4 @@ function HomePgbk() {
   )
 }
 
-export default HomePgbk;
+export default Homepgbrk;

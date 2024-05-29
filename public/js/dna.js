@@ -19,7 +19,7 @@ for (var i = 0; i < 28; i++) {
 
     // alert(animation_proper);
 
-    };
+};
 
 
 // Partical JS
