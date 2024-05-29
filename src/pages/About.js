@@ -6,7 +6,12 @@ import InnerBanner from "../Components/InnerBanner";
 const About = () => {
     return(
         <>
-            <InnerBanner />
+            <InnerBanner
+                InnBanner="url(images/Cube_gr3.png)"
+                BnrRightImg="images/Cube_gr2.png"
+                TitleInn={["Build a High-Efficiency Tech Team ", <span>Build a </span>, " Build a High-Efficiency Tech Team"]}
+                ParaInn="gfdfdf"
+            />
 
             <TableApi />
             

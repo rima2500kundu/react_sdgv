@@ -108,7 +108,7 @@ header nav ul li:last-child a{margin-right: 0;}
 
 /* Home_banner */
 .Home_banner{margin-top: 125px; background: #fff;}
-.Home_banner_sub{border: 1px solid #858282; border-radius: 30px; overflow: hidden; height: 600px; margin: 0 auto; width:98%; background-size: cover !important;}
+.Home_banner_sub{border: 1px solid #858282; border-radius: 30px; overflow: hidden; height: 600px; margin: 0 auto; width:98%; background-size: cover !important; background-color: #fafbfd !important; background-repeat: no-repeat !important; background-position: 70% !important;}
 .Hom_bnr_left_sub{max-width: 663px; float: right;}
 .Hom_bnr_left{display: flex; justify-content: flex-end; align-items: center;}
 .banner_text h1{font-size: 48px; font-family:'cera_prolight'; margin-bottom: 35px; line-height: 64px;}
@@ -496,7 +496,7 @@ opacity: 0;
 /* ===================================================== How It Works Page Start===================================================== */
 /* ===================================================== How It Works Page Start===================================================== */
 .inner_banner{position: relative;}
-.inner_banner::before{content: ""; position: absolute; width: 200px; height: 500px; background: url(../images/inner_banner_grphcs1.png); background-position: left top; left: 0; z-index: 2; top: 20px; background-size: 50%; background-repeat: no-repeat;}
+/* .inner_banner::before{content: ""; position: absolute; width: 200px; height: 500px; background: url(../images/inner_banner_grphcs1.png); background-position: left top; left: 0; z-index: 2; top: 20px; background-size: 50%; background-repeat: no-repeat;} */
 .inner_banner .Home_banner_sub{border: none; background: #fafbfd;}
 .inner_banner .row{align-items: center;}
 .inner_bnr_left .cmn_btn_grp{margin-top: 40px;}
@@ -651,7 +651,7 @@ justify-content: center;}
 
 /* ===================================================== Devloper Page Strat ===================================================== */
 /* ===================================================== Devloper Page Strat ===================================================== */
-.devlper_banner.inner_banner::before{content: ""; background: url(../images/Cube_gr1.png); background-repeat: no-repeat;}
+/* .devlper_banner.inner_banner::before{content: ""; background: url(../images/Cube_gr1.png); background-repeat: no-repeat;} */
 
 #cmn_slider_btn .slick-arrow{width: 50px; height: 50px; background: transparent; border: 1.2px solid #f15d22; position: absolute; top: 50%; transform: translateY(-50%) rotate(45deg); z-index: 2; font-size: 1px; color: transparent;}
 #cmn_slider_btn .slick-arrow::before{content: ""; background: transparent url(../images/left_arrow.png) no-repeat 50% 50%; position: absolute; width: 50px; height: 50px; transform: rotate(315deg); top: 2px; left: -4px;}

@@ -16,7 +16,7 @@ function Header() {
                         <a href='/'> Why SDG</a>
                         <ul className="sub-menu">
                             <li><a href="how-it-works.html">How It works</a></li>
-                            <li><a href="distinct-vetting-process.html">Distinct Vetting Process</a></li>
+                            <li><a href="/distinctvettingprocess">Distinct Vetting Process</a></li>
                             <li><a href="SDG_advantage.html">SDG Advantage</a></li>
                             <li><a href="/">Pricing</a></li>
                             <li><a href="our-team.html">Our Team</a></li>
