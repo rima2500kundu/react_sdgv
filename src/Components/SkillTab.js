@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
+import React from 'react'
+
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
 
 function SkillTab() {
     const skillData = [
@@ -8,49 +9,45 @@ function SkillTab() {
             id: 0,
             skilltabName: "Digital Marketing",
             skilltabData: [
-                <li>SEM &amp; PPC Expert</li>,
-                <li>SEO Expert</li>,
-                <li>Programmatic Ad Manager</li>,
-                <li>Content Writer</li>,
-                <li>Social Media Manager</li>,
-                <li>Email Marketing Expert</li>,
-                <li>Video Marketing Expert</li>,
-                <li>ASO Expert</li>,
+                {skillTitle: "SEM &amp; PPC Expert"},
+                {skillTitle: "SEO Expert"},
+                {skillTitle: "Programmatic Ad Manager"},
+                {skillTitle: "Content Writer"},
+                {skillTitle: "Social Media Manager"},
+                {skillTitle: "Email Marketing Expert"},
+                {skillTitle: "Video Marketing Expert"},
+                {skillTitle: "ASO Expert"},
             ],
             skilltabImg: "images/threeTabimg1.png",
         },
-
         {
             id: 1,
             skilltabName: "Accounting & Finance",
             skilltabData: [
-                <li>Accountants</li>,
-                <li>Bookkeepers</li>,
-                <li>Payroll Experts</li>,
-                <li>Financial Analysts</li>,
-                <li>QuickBooks</li>,
-                <li>Tax Consultants</li>,
-                <li>Payroll Experts</li>,
-                <li>Financial Analysts</li>,
-                <li>Tax Preparation Experts</li>,
+                {skillTitle: "Accountants"},
+                {skillTitle: "Bookkeepers"},
+                {skillTitle: "Payroll Experts"},
+                {skillTitle: "Financial Analysts"},
+                {skillTitle: "QuickBooks"},
+                {skillTitle: "Tax Consultants"},
+                {skillTitle: "Payroll Experts"},
+                {skillTitle: "Financial Analysts"},
+                {skillTitle: "Tax Preparation Experts"},
             ],
             skilltabImg: "images/threeTabimg2.png",
         },
-
         {
-            id: 1,
+            id: 2,
             skilltabName: "Virtual Assistant",
             skilltabData: [
-                <li>Personal VA</li>,
-                <li>Real Estate VA</li>,
-                <li>Data Entry Experts</li>,
-                <li>Ecommerce VA</li>,
+                {skillTitle: "Personal VA"},
+                {skillTitle: "Real Estate VA"},
+                {skillTitle: "Data Entry Experts"},
+                {skillTitle: "Ecommerce VA"},
             ],
             skilltabImg: "images/threeTabimg3.png",
         },
     ];
-
-    const [tabIndex, setTabIndex] = useState(0);
 
   return (
     <>
@@ -61,30 +58,22 @@ function SkillTab() {
                     <hr />
                 </div>
 
-                <Tabs className='three_tab_bottom' selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
-                    <TabList>
-                        {skillData.map((tab, i) => {
-                            return (
-                                <Tab className='resp-tab-item' key={i}>{tab.skilltabName}</Tab>
-                            );
-                        })}
-                    </TabList>
+                <Tabs defaultActiveKey={skillData[0].skilltabName} id="fill-tab-example" className="mb-3" fill>
+                    {skillData.map((tab, i)=>{
+                        return(
+                            <Tab eventKey={tab.skilltabName} title={tab.skilltabName} key={i}>
+                                <div className='three_tab_bt_top_left'>
+                                    <ul>
+                                        {tab.skilltabData.map((tab,i) => <li>{tab.skillTitle}</li>)}
+                                    </ul>
+                                </div>
 
-                    <div className='resp-tabs-container'>
-                        {skillData.map((tab,i) => {
-                            return (
-                                <TabPanel key={i}>
-                                    <div className='three_tab_bt_top_left'>
-                                        <ul>{tab.skilltabData}</ul>
-                                    </div>
-
-                                    <div className='three_tab_bt_top_right'>
-                                        <img src={tab.skilltabImg} alt="images" />
-                                    </div>
-                                </TabPanel>
-                            );
-                        })}
-                    </div>
+                                <div className='three_tab_bt_top_right'>
+                                    <img src={tab.skilltabImg} alt="images" />
+                                </div>
+                            </Tab>
+                        );
+                    })}
                 </Tabs>
             </div>    
         </section>

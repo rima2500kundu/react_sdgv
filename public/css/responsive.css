@@ -95,8 +95,14 @@ h2.resp-tab-active, .three_tab_bottom .resp-tab-active{background: #f25d23 !impo
 .home_talent_tab{display: inline-block; padding: 0;}
 .talent_sec_bottom .resp-tab-content ul li{width: 45%; height: 2.5rem;}
 .talent_sec_bottom .resp-tabs-container{padding: 10px; width: 100% !important;}
-.home_pgbk .cmn_btn_grp{flex-direction: column; align-items: center;}
-.home_pgbk .cmn_btn_stroke{margin: 0 0 25px;}
+/* .home_pgbk .cmn_btn_grp{flex-direction: column; align-items: center;}
+.home_pgbk .cmn_btn_stroke{margin: 0 0 25px;} */
+
+.desk_tb_content{padding: 0;}
+.desk_tb_content ul li{width: 45%; height: 2.5rem;}
+.desk_tb_content ul li img{width: 75%;}
+.desk_tb_content ul{justify-content: center;}
+
 .Hrng_Gns_right ul{margin-top: 0;}
 .footer_sub{padding: 50px 0 50px;}
 .three_tab_bottom .cmn_btn_stroke{padding-inline: 20px;}
@@ -613,7 +619,8 @@ select.country_number { padding: 10px 6px; background: url(../images/down_arrow.
 .why_sdg_row .two_dots img{width: 110px;}
 .copyright p{margin-bottom: 0;}
 
-
+.desk_tb_content{padding: 25px;}
+.desk_tb_content ul li{width: 31.29%;}
 
 /* svg */
 .USP_bt_border{margin-top: 175px;}
@@ -1107,6 +1114,10 @@ select.country_number {padding: 10px 5px; background: url(../images/down_arrow.p
 .Hmn_bt_left_text{font-size: 22px; line-height: 28px;}
 .Hmn_bt_left_border{margin-right: 18px;}
 .Human_img_bottom{margin-top: 60px;}
+
+.desk_tb_title{font-size: 22px;}
+.desk_tb_content{padding: 30px;}
+.desk_tb_content ul li{width: 31%;}
 
 .footer_sub_loaction{margin-left: 33px; margin-top: 15px;}
 .copyright p{margin-bottom: 0;}
