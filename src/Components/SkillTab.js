@@ -64,7 +64,7 @@ function SkillTab() {
                             <Tab eventKey={tab.skilltabName} title={tab.skilltabName} key={i}>
                                 <div className='three_tab_bt_top_left'>
                                     <ul>
-                                        {tab.skilltabData.map((tab,i) => <li>{tab.skillTitle}</li>)}
+                                        {tab.skilltabData.map((tab,i) => <li key={i}>{tab.skillTitle}</li>)}
                                     </ul>
                                 </div>
 

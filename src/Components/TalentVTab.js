@@ -122,7 +122,7 @@ function TalentVTab() {
                                             return(
                                                 <Tab.Pane eventKey={tab.eventKey} key={i}>
                                                     <ul>
-                                                        {tab.webdevImg.map((tab,i) => <li><a href='/'><img src={tab.src} alt={tab.alt} /></a></li>)}
+                                                        {tab.webdevImg.map((tab,i) => <li key={i}><a href='/'><img src={tab.src} alt={tab.alt} /></a></li>)}
                                                     </ul>
                                                 </Tab.Pane>
                                             );
@@ -138,10 +138,10 @@ function TalentVTab() {
                             {tabsData.map((tab,i)=>{
                                 return(
                                     <Accordion.Item eventKey={tab.eventKey} key={i}>
-                                        <Accordion.Header key={i}>{tab.tabName}</Accordion.Header> 
-                                        <Accordion.Body key={i} className='desk_tb_content'>
+                                        <Accordion.Header>{tab.tabName}</Accordion.Header> 
+                                        <Accordion.Body className='desk_tb_content'>
                                             <ul>
-                                                {tab.webdevImg.map((tab,i) => <li><a href='/'><img src={tab.src} alt={tab.alt} /></a></li>)}
+                                                {tab.webdevImg.map((tab,i) => <li key={i}><a href='/'><img src={tab.src} alt={tab.alt} /></a></li>)}
                                             </ul>
                                         </Accordion.Body>
                                     </Accordion.Item>
