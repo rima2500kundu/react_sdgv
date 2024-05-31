@@ -77,7 +77,7 @@ img{max-width: 100%;}
 /* Header */
 .main_header{position: fixed; top: 0px; left: 0; right: 0; background: #fff; border-bottom:2px solid #ffffff1a; z-index: 999;}
 .main_header .container{padding: 60px 0 10px;}
-.main_header .d-flex{justify-content: space-between; align-items: flex-end;}
+/* .main_header .d-flex{justify-content: space-between; align-items: flex-end;} */
 .header_number{float: right; display: flex; align-items: center;}
 .header_number a{font-size: 16px; color: #ffffff; text-transform: uppercase;}
 .header_number a:first-child{margin-right: 35px;}
