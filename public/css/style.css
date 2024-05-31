@@ -454,32 +454,24 @@ opacity: 0;
 
 .footer_sub_map{position: relative;}
 #horizontalTab2 .resp-tab-content{border: none; padding: 0;}
-
-/*#horizontalTab2 .resp-tabs-list li:first-child{position: absolute; right: 113px; top: 92px;}
-#horizontalTab2 .resp-tabs-list li:nth-child(2), #horizontalTab_cnt .resp-tabs-list li:nth-child(2){position: absolute; right: 72px; top: 108px;display: none;}
+#horizontalTab2 .resp-tabs-list li:first-child{position: absolute; right: 113px; top: 92px;}
+/* #horizontalTab2 .resp-tabs-list li:nth-child(2), #horizontalTab_cnt .resp-tabs-list li:nth-child(2){position: absolute; right: 72px; top: 108px;display: none;}
 #horizontalTab2 .resp-tabs-list li:nth-child(3), #horizontalTab_cnt .resp-tabs-list li:nth-child(3){position: absolute; right: 41px; top: 175px;display: none;}
-#horizontalTab2 .resp-tabs-list li:nth-child(4), #horizontalTab_cnt .resp-tabs-list li:nth-child(4){position: absolute; left: 166px; top: 65px; display: none;} 
+#horizontalTab2 .resp-tabs-list li:nth-child(4), #horizontalTab_cnt .resp-tabs-list li:nth-child(4){position: absolute; left: 166px; top: 65px; display: none;}
 #horizontalTab2 .resp-tabs-list li:nth-child(5), #horizontalTab_cnt .resp-tabs-list li:nth-child(5){position: absolute; left: 80px; top: 131px;}
 #horizontalTab2 .resp-tabs-list li:nth-child(6), #horizontalTab_cnt .resp-tabs-list li:nth-child(6){position: absolute; left: 80px; top: 39px;}
-#horizontalTab2 .resp-tabs-list li:nth-child(7), #horizontalTab_cnt .resp-tabs-list li:nth-child(7){position: absolute; left: 94px; top: 50px;}
+#horizontalTab2 .resp-tabs-list li:nth-child(7), #horizontalTab_cnt .resp-tabs-list li:nth-child(7){position: absolute; left: 94px; top: 50px;} */
 
 #horizontalTab_cnt .resp-tabs-list li:first-child{position: absolute; right: 113px; top: 92px;}
-
 #horizontalTab2 li.resp-tab-active{background: #f15d22; box-shadow: 0px 0px 0px 3px #f15d2238; transform: scale(1.2);}
-#horizontalTab2 .resp-tabs-container{background: transparent;}*/
-
-/* #horizontalTab2 .resp-tabs-list li:first-child{position: absolute; left: 80px; top: 39px;}
+#horizontalTab2 .resp-tabs-container{background: transparent;}
+#horizontalTab2 .resp-tabs-list li:first-child{position: absolute; left: 80px; top: 39px;}
 #horizontalTab2 .resp-tabs-list li:nth-child(2), #horizontalTab_cnt .resp-tabs-list li:nth-child(2){position: absolute; right: 335px; top: 129px;}
 #horizontalTab2 .resp-tabs-list li:nth-child(3), #horizontalTab_cnt .resp-tabs-list li:nth-child(3){position: absolute; right: 121px; top: 93px;}
 #horizontalTab2 .resp-tabs-list li:nth-child(4), #horizontalTab_cnt .resp-tabs-list li:nth-child(4){position: absolute; left: 95px; top: 51px;} 
-
 #horizontalTab_cnt .resp-tabs-list li:first-child{position: absolute; left: 80px; top: 131px;}
-
 #horizontalTab2 li.resp-tab-active{background: #f15d22; box-shadow: 0px 0px 0px 3px #f15d2238; transform: scale(1.2);}
-#horizontalTab2 .resp-tabs-container{background: transparent;} */
-
-
-
+#horizontalTab2 .resp-tabs-container{background: transparent;}
 
 .desk_tb_content{padding: 40px; box-shadow: 0px 0px 20px -3px #00000047;}
 .desk_tb_content ul{display: flex; flex-wrap: wrap;}

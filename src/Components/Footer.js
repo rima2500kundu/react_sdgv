@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 function Footer() {
-    const [curAddress, setCurAddress ] = useState(null);
+    const [curAddress, setCurAddress ] = useState(1);
     function handleClick(add) {
         setCurAddress(add)
     }
@@ -17,10 +17,10 @@ function Footer() {
                                 <img src="images/world_map.png" alt="images" />
                                 <div id="horizontalTab2">
                                     <ul className="resp-tabs-list">
-                                        <li onClick={()=>handleClick(1)} className={curAddress === 1? 'resp-tab-active' : ''}></li>
-                                        <li onClick={()=>handleClick(2)} className={curAddress === 2? 'resp-tab-active' : ''}></li>
-                                        <li onClick={()=>handleClick(3)} className={curAddress === 3? 'resp-tab-active' : ''}></li>
-                                        <li onClick={()=>handleClick(4)} className={curAddress === 4? 'resp-tab-active' : ''}></li>
+                                        <li onClick={()=>handleClick(1)} className={`resp-tab-item ${curAddress === 1? 'resp-tab-active' : ''}`}></li>
+                                        <li onClick={()=>handleClick(2)} className={`resp-tab-item ${curAddress === 2? 'resp-tab-active' : ''}`}></li>
+                                        <li onClick={()=>handleClick(3)} className={`resp-tab-item ${curAddress === 3? 'resp-tab-active' : ''}`}></li>
+                                        <li onClick={()=>handleClick(4)} className={`resp-tab-item ${curAddress === 4? 'resp-tab-active' : ''}`}></li>
                                     </ul>
 
                                     <div className="resp-tabs-container">
