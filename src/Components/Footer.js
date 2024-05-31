@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Footer() {
+    const [curAddress, setCurAddress ] = useState(null);
+    function handleClick(add) {
+        setCurAddress(add)
+    }
   return (
     <>
         <footer className="full_width">
@@ -13,14 +17,14 @@ function Footer() {
                                 <img src="images/world_map.png" alt="images" />
                                 <div id="horizontalTab2">
                                     <ul className="resp-tabs-list">
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
+                                        <li onClick={()=>handleClick(1)} className={curAddress === 1? 'resp-tab-active' : ''}></li>
+                                        <li onClick={()=>handleClick(2)} className={curAddress === 2? 'resp-tab-active' : ''}></li>
+                                        <li onClick={()=>handleClick(3)} className={curAddress === 3? 'resp-tab-active' : ''}></li>
+                                        <li onClick={()=>handleClick(4)} className={curAddress === 4? 'resp-tab-active' : ''}></li>
                                     </ul>
 
                                     <div className="resp-tabs-container">
-                                        <div>
+                                        <div  className={curAddress ===1? "d-block" :"d-none"}>
                                             <div className="footer_sub_loaction ">  
                                             <h2>Canada</h2>
                                             <h3>Toronto</h3>
@@ -28,7 +32,7 @@ function Footer() {
                                             </div>
                                         </div>
 
-                                        <div>
+                                        <div  className={curAddress ===2? "d-block" :"d-none"}>
                                             <div className="footer_sub_loaction ">
                                                 <h2>Colombia</h2>
                                                 <h3>Medellin</h3>
@@ -36,7 +40,7 @@ function Footer() {
                                             </div>
                                         </div>
 
-                                        <div>
+                                        <div  className={curAddress ===3? "d-block" :"d-none"}>
                                             <div className="footer_sub_loaction">
                                             <h2>India</h2>
                                             <h3>Kolkata</h3>
@@ -45,7 +49,7 @@ function Footer() {
                                             </div>
                                         </div>
 
-                                        <div>
+                                        <div className={curAddress ===4? "d-block" :"d-none"}>
                                             <div className="footer_sub_loaction">
                                                 <h2>USA</h2>
                                                 <h3>New York</h3>
