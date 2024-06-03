@@ -305,8 +305,6 @@ footer{margin-top: 60px;}
 .schedule_step_one{margin-top: 50px;}
 .company_size label input:checked ~ .checkmark:before {    width:98px; left: -120px;}
 
-
-
 /* ========== Book A Call Page Start ========== */
 .call_back_arrow{display: none;}
 .our_corporate .col-12 img{width: 100%; margin-top: 20px;}
@@ -548,16 +546,14 @@ select.country_number { padding: 10px 6px; background: url(../images/down_arrow.
 .rct_dvlpr_arrow.remote_dvloper .Hrng_Gns_right li:first-child, .rct_dvlpr_arrow.remote_dvloper .Hrng_Gns_right li:last-child{margin: 0;}
 .no_before .Home_banner_sub{background-size: cover !important;}
 
-
 .expt_bookprs.acc_process.remote_tester .Hrng_Gns_left ul li:last-child,
 .expt_bookprs.acc_process.remote_dvloper .Hrng_Gns_right li:last-child {  padding-top: 0;}
 .acc_process + .sdg_advntg_video_black .cmn_btn_fill {padding: 15px 52px;}
-
-
 .mbl_fix_btn{position: fixed; bottom: 0; z-index: 100; display: flex; justify-content: center; background: #1b212dc7; text-align: center; padding-block: 15px;}
 .mbl_fix_btn .cmn_btn_grp{margin-top: 0;}
 .mbl_fix_btn a.cmn_btn_fill{margin: 0;}
 .mbl_fix_btn a.cmn_btn_fill:hover{background: #f25d23;  color: #ffffff;  border: 1.5px solid transparent;}
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1088,6 +1084,15 @@ select.country_number {padding: 10px 5px; background: url(../images/down_arrow.p
 
 .mobile_menu{display: block;}
 .main_header .header_links{display: none;}
+.main_header .navbar-toggler{padding: 0; border: none;}
+.main_header .navbar-toggler:focus{box-shadow: none;}
+.main_header .navbar{padding: 0;}
+.offcanvas-header img{max-width: 220px;}
+
+.nav-item a{position: relative;}
+.nav-item .dropdown-toggle::after{position: absolute; top: 50%; transform: translateY(-50%); right: 0;}
+.nav-item, .nav-link, .nav-item a:hover{color: var(--main_blue);}
+.main_header.is-sticky .container{padding-block: 18px;}
 
 }
 
@@ -1118,10 +1123,8 @@ select.country_number {padding: 10px 5px; background: url(../images/down_arrow.p
 .desk_tb_title{font-size: 22px;}
 .desk_tb_content{padding: 30px;}
 .desk_tb_content ul li{width: 31%;}
-
 .footer_sub_loaction{margin-left: 33px; margin-top: 15px;}
 .copyright p{margin-bottom: 0;}
-
 .footer_sub_map{width: 300px; margin: 0 auto;}
 
 #horizontalTab2 .resp-tabs-list li:first-child {top: 29px; left: 45px;}
@@ -1176,7 +1179,7 @@ select.country_number {padding: 10px 5px; background: url(../images/down_arrow.p
 .home_pgbk .cmn_btn_grp {margin-top: 30px;}
 
 .main_header .container{padding: 25px 15px;}
-.Home_banner{margin-top: 115px;}
+.Home_banner{margin-top: 98px;}
 
 /* ========== How It Works Page Start ========== */
 .inner_banner::before{display: none;}
@@ -1377,8 +1380,6 @@ select.country_number {padding: 10px 5px; background: url(../images/down_arrow.p
 .step_one_form{padding: 20px;}
 .company_size label input:checked ~ .checkmark:before {    width: 100px; left: -112px;}
 
-
-
 /* ==========  QA Tester Page Start ========== */
 .Hrng_Gns_left ul li{float: left; margin-right: 0 !important;}
 .remote_tester .Hrng_Gns_left ul li:last-child{padding-right:0;}
@@ -1405,9 +1406,6 @@ select.country_number {padding: 10px 5px; background: url(../images/down_arrow.p
 #horizontalTab2 .resp-tabs-list li:nth-child(7){top: 37px;     left: 62px;}
 .expt_bookprs.acc_process.remote_tester .Hrng_Gns_left ul li:last-child, .expt_bookprs.acc_process.remote_dvloper .Hrng_Gns_right li:last-child {padding-top: 0;}
 .acc_process .Hrng_Gns_right li {padding-left:0;}
-
-
-
 
 }
 
@@ -1708,13 +1706,11 @@ select.country_number {padding: 10px 5px; background: url(../images/down_arrow.p
 
 .referral_program.specialist_SEO_Expert.dm_hire_staff.employer_ref_prog .Hrng_Gns_left ul li:first-child::after{right: -12px!important;top: 36px!important;}
 .referral_program.specialist_SEO_Expert.dm_hire_staff.employer_ref_prog .Hrng_Gns_left ul li:last-child::after{ right: -420px!important; top: 13px!important; width: 445px;}
-.referral_program.employer_ref_prog.specialist_SEO_Expert.dm_hire_staff.employer_ref_prog .Hrng_Gns_right ul li:last-child::after{    top: -24px!important; left: -40px!important;}
+.referral_program.employer_ref_prog.specialist_SEO_Expert.dm_hire_staff.employer_ref_prog .Hrng_Gns_right ul li:last-child::after{top: -24px!important; left: -40px!important;}
 
 /* ========== Privacy Policy Page Start ========== */ 
 .privacy_accordian .accordion-button::after{right: inherit;}
-
 .acc_finance_staff.remote_tester .Hrng_Gns_left ul li:nth-child(2)::after{top: -10px !important;}
-
 
 /* ========== React Js Developer Job Descriptions Page Start ========== */
 .rct_jbDscrp_arrow.remote_tester .Hrng_Gns_left ul li:first-child::before { top: -97%!important;}
@@ -1727,7 +1723,6 @@ select.country_number {padding: 10px 5px; background: url(../images/down_arrow.p
 .rct_jbDscrp_arrow.remote_tester .Hrng_Gns_right ul li:last-child::after{    transform: rotate(10deg); top: -8px; left: -97px;}
 .rct_jbDscrp_arrow.remote_dvloper.Hiring_Genius .row li {margin-bottom: 40px;}
 .rct_jbDscrp_arrow.remote_dvloper .Hrng_Gns_right li:first-child{ margin-top: -5px;}
-
 
 /* ========== React Developer Page Start ========== */
 /* .remote_dvloper .Hrng_Gns_left ul li:last-child::after {top: 18px !important;} */
@@ -1779,10 +1774,7 @@ select.country_number {padding: 10px 5px; background: url(../images/down_arrow.p
 #horizontalTab_cnt .resp-tabs-list li:nth-child(6){left: 126px; top: 42px;}
 #horizontalTab_cnt .resp-tabs-list li:nth-child(4){left: 267px; top: 132px;} */
 
-
-
 .footer_sub_map, .sdg_lcnts .footer_sub_map{width: 300px;}
-
 #horizontalTab2 .resp-tabs-list li:first-child{top: 32px; left: 32px;}
 #horizontalTab2 .resp-tabs-list li:nth-child(2){left: 57px; top: 94px;}
 #horizontalTab2 .resp-tabs-list li:nth-child(3){right: 75px; top: 63px;;}

@@ -74,7 +74,7 @@ function UspContent() {
                     </div>
                 </div>
 
-                <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 USP_bottom_text">
+                <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 USP_bottom_text">
                     <div className="text_controller">
                         <h2>Revolutionize Your <br />Hiring Process with Our AI-Powered Platform</h2>
                         <hr />

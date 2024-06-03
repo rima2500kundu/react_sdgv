@@ -9,7 +9,7 @@ function SkillTab() {
             id: 0,
             skilltabName: "Digital Marketing",
             skilltabData: [
-                {skillTitle: "SEM &amp; PPC Expert"},
+                {skillTitle: "SEM & PPC Expert"},
                 {skillTitle: "SEO Expert"},
                 {skillTitle: "Programmatic Ad Manager"},
                 {skillTitle: "Content Writer"},
@@ -58,18 +58,25 @@ function SkillTab() {
                     <hr />
                 </div>
 
-                <Tabs defaultActiveKey={skillData[0].skilltabName} id="fill-tab-example" className="mb-3" fill>
+                <Tabs defaultActiveKey={skillData[0].skilltabName} id="fill-tab-example" className="mb-5" fill>
                     {skillData.map((tab, i)=>{
                         return(
                             <Tab eventKey={tab.skilltabName} title={tab.skilltabName} key={i}>
-                                <div className='three_tab_bt_top_left'>
-                                    <ul>
-                                        {tab.skilltabData.map((tab,i) => <li key={i}>{tab.skillTitle}</li>)}
-                                    </ul>
+                                <div className='three_tab_bt_top'>
+                                    <div className='three_tab_bt_top_left'>
+                                        <ul>
+                                            {tab.skilltabData.map((tab,i) => <li key={i}>{tab.skillTitle}</li>)}
+                                        </ul>
+                                    </div>
+
+                                    <div className='three_tab_bt_top_right'>
+                                        <img src={tab.skilltabImg} alt="images" />
+                                    </div>
                                 </div>
 
-                                <div className='three_tab_bt_top_right'>
-                                    <img src={tab.skilltabImg} alt="images" />
+                                <div class="cmn_btn_grp">
+                                    <a href="/" class="cmn_btn_fill">Hire Developers</a>
+                                    <a href="/" class="cmn_btn_stroke">Apply For Jobs</a>
                                 </div>
                             </Tab>
                         );

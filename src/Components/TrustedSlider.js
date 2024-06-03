@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
+import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function TrustedSlider({defaultTitle}) { // props
-  const [title] = useState(defaultTitle); // use the props value into state
+  // const [title] = useState(defaultTitle); // use the props value into state
 // simple props
 // function TrustedSlider(props) {
 //   const {title} = props;

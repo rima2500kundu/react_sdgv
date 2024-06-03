@@ -1,5 +1,7 @@
+// import Particles from '@tsparticles/react';
 import React, { useEffect } from 'react'
-import ParticlesBg from './ParticlesBg';
+import ParticlesFunc from './Particles';
+
 
 function HomeBanner() {
     // banner animation js
@@ -43,8 +45,7 @@ function HomeBanner() {
                         </div>
                     </div>
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 Hom_bnr_right">
-                        {/* <div id="particles-js"></div>  */}
-                        <ParticlesBg id="tsparticles" />
+                        <ParticlesFunc />
                         <img src="images/bnr_objects.png" alt="" className="bnr_object" />
 
                         <div className="material" id="loop_dna">
