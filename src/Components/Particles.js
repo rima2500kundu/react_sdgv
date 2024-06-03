@@ -86,8 +86,9 @@ const ParticlesFunc = () => {
         number: {
           density: {
             enable: true,
+            value_area: 800
           },
-          value: 80,
+          value: 400, //80
         },
         opacity: {
           value: 0.5,
