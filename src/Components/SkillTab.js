@@ -3,10 +3,13 @@ import React from 'react'
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 
+import Accordion from 'react-bootstrap/Accordion';
+
 function SkillTab() {
     const skillData = [
         {
             id: 0,
+            eventKey: "first",
             skilltabName: "Digital Marketing",
             skilltabData: [
                 {skillTitle: "SEM & PPC Expert"},
@@ -22,6 +25,7 @@ function SkillTab() {
         },
         {
             id: 1,
+            eventKey: "second",
             skilltabName: "Accounting & Finance",
             skilltabData: [
                 {skillTitle: "Accountants"},
@@ -38,6 +42,7 @@ function SkillTab() {
         },
         {
             id: 2,
+            eventKey: "third",
             skilltabName: "Virtual Assistant",
             skilltabData: [
                 {skillTitle: "Personal VA"},
@@ -58,30 +63,62 @@ function SkillTab() {
                     <hr />
                 </div>
 
-                <Tabs defaultActiveKey={skillData[0].skilltabName} id="fill-tab-example" className="mb-5" fill>
-                    {skillData.map((tab, i)=>{
-                        return(
-                            <Tab eventKey={tab.skilltabName} title={tab.skilltabName} key={i}>
-                                <div className='three_tab_bt_top'>
-                                    <div className='three_tab_bt_top_left'>
-                                        <ul>
-                                            {tab.skilltabData.map((tab,i) => <li key={i}>{tab.skillTitle}</li>)}
-                                        </ul>
+                <div className='d-none d-lg-block skilltabSec'>
+                    <Tabs defaultActiveKey={skillData[0].skilltabName} id="fill-tab-example" className="mb-5" fill>
+                        {skillData.map((tab, i)=>{
+                            return(
+                                <Tab eventKey={tab.skilltabName} title={tab.skilltabName} key={i}>
+                                    <div className='three_tab_bt_top'>
+                                        <div className='three_tab_bt_top_left'>
+                                            <ul>
+                                                {tab.skilltabData.map((tab,i) => <li key={i}>{tab.skillTitle}</li>)}
+                                            </ul>
+                                        </div>
+
+                                        <div className='three_tab_bt_top_right'>
+                                            <img src={tab.skilltabImg} alt="images" />
+                                        </div>
                                     </div>
 
-                                    <div className='three_tab_bt_top_right'>
-                                        <img src={tab.skilltabImg} alt="images" />
+                                    <div class="cmn_btn_grp">
+                                        <a href="/" class="cmn_btn_fill">Hire Developers</a>
+                                        <a href="/" class="cmn_btn_stroke">Apply For Jobs</a>
                                     </div>
-                                </div>
+                                </Tab>
+                            );
+                        })}
+                    </Tabs>
+                </div>
 
-                                <div class="cmn_btn_grp">
-                                    <a href="/" class="cmn_btn_fill">Hire Developers</a>
-                                    <a href="/" class="cmn_btn_stroke">Apply For Jobs</a>
-                                </div>
-                            </Tab>
-                        );
-                    })}
-                </Tabs>
+                <div className='d-lg-none v_accordion'>
+                    <Accordion defaultActiveKey={skillData[0].eventKey}>
+                        {skillData.map((tab,i)=>{
+                            return(
+                                <Accordion.Item eventKey={tab.eventKey} key={i}>
+                                    <Accordion.Header>{tab.skilltabName}</Accordion.Header> 
+                                    <Accordion.Body className=''>
+                                        <div className='three_tab_bt_top'>
+                                            <div className='three_tab_bt_top_left'>
+                                                <ul>
+                                                    {tab.skilltabData.map((tab,i) => <li key={i}>{tab.skillTitle}</li>)}
+                                                </ul>
+                                            </div>
+
+                                            <div className='three_tab_bt_top_right'>
+                                                <img src={tab.skilltabImg} alt="images" />
+                                            </div>
+                                        </div>
+
+                                        <div class="cmn_btn_grp">
+                                            <a href="/" class="cmn_btn_fill">Hire Developers</a>
+                                            <a href="/" class="cmn_btn_stroke">Apply For Jobs</a>
+                                        </div>
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                            );
+                        })}
+                    </Accordion>
+                </div>
             </div>    
         </section>
     </>

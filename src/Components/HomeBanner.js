@@ -39,8 +39,8 @@ function HomeBanner() {
                                 <p>Discover the future of hiring with our innovative process, combining AI and human intelligence for optimal candidate matching.</p>
                             </div>
                             <div className="cmn_btn_grp">
-                                <a href="schedule-a-call.html" className="cmn_btn_fill">Hire Developers</a>
-                                <a href="apply-as-talent.html" className="cmn_btn_stroke">Apply For Jobs</a>
+                                <a href="/" className="cmn_btn_fill">Hire Developers</a>
+                                <a href="/" className="cmn_btn_stroke">Apply For Jobs</a>
                             </div>
                         </div>
                     </div>

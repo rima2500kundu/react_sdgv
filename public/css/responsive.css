@@ -552,7 +552,10 @@ select.country_number { padding: 10px 6px; background: url(../images/down_arrow.
 .mbl_fix_btn{position: fixed; bottom: 0; z-index: 100; display: flex; justify-content: center; background: #1b212dc7; text-align: center; padding-block: 15px;}
 .mbl_fix_btn .cmn_btn_grp{margin-top: 0;}
 .mbl_fix_btn a.cmn_btn_fill{margin: 0;}
-.mbl_fix_btn a.cmn_btn_fill:hover{background: #f25d23;  color: #ffffff;  border: 1.5px solid transparent;}
+.mbl_fix_btn a.cmn_btn_fill:hover{background: #f25d23; color: #ffffff; border: 1.5px solid transparent;}
+
+.home_pgbk .cmn_btn_grp{flex-direction: column; align-items: center;}
+.home_pgbk .cmn_btn_stroke{margin: 0 0 25px;}
 
 }
 
@@ -1786,6 +1789,9 @@ select.country_number {padding: 10px 5px; background: url(../images/down_arrow.p
 /* .checkmark {  right: 75px;} */
 .company_size label input:checked ~ .checkmark:before { width: 98px; left: -108px;}
 .company_size label{padding-left: 24px;}
+
+.three_tab .cmn_btn_fill{padding: 8px 15px;}
+.three_tab .cmn_btn_stroke{padding: 8px 15px;}
 
 }
 

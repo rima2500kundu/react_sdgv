@@ -67,8 +67,8 @@ function Footer() {
                                     <h2>Developer</h2>
                                     <ul>
                                         <li><a href="/">Hire Developer By Specific Skills</a></li>
-                                        <li><a href="hire-development-team.html">Hire Development Team</a></li>
-                                        <li><a href="book-a-call.html">Book A Call</a></li>
+                                        <li><a href="/">Hire Development Team</a></li>
+                                        <li><a href="/">Book A Call</a></li>
                                         <li><a href="/">Job Description Example</a></li>
                                         <li><a href="/">Employer Referral</a></li>
                                     </ul>
@@ -85,7 +85,7 @@ function Footer() {
                                 <div className="col-12 col-md-6 col-sm-6 col-lg-2 col-xl-2">
                                     <h2>Support</h2>
                                     <ul>
-                                        <li><a href="schedule-a-call.html">Contact Us</a></li>
+                                        <li><a href="/">Contact Us</a></li>
                                         <li><a href="/">Privacy Policy</a></li>
                                         <li><a href="/">Terms of Service</a></li>
                                     </ul>
@@ -94,8 +94,8 @@ function Footer() {
                                 <div className="col-12 col-md-6 col-sm-6 col-lg-3 col-xl-3">
                                     <h2>About Us</h2>
                                     <ul>
-                                        <li><a href="social-responsibility.html">Social Responsibility</a></li>
-                                        <li><a href="events.html">Events</a></li>
+                                        <li><a href="/">Social Responsibility</a></li>
+                                        <li><a href="/">Events</a></li>
                                         <li><a href="/">Customer Reviews</a></li>
                                         <li><a href="/">Blog</a></li>
                                         <li><a href="/">Career</a></li>

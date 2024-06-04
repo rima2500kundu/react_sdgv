@@ -1,9 +1,6 @@
 @import url(bootstrap.min.css);
 @import url(fontawesome.min.css);
 @import url(custom-menu.css);
-/* @import url(easy-responsive-tabs.css);
-@import url(slick.css);
-@import url(slick-theme.css); */
 @import url(dna_style.css);
 
 /************start Cera_Pro font************/
@@ -2018,7 +2015,8 @@ display: inline-block; position: absolute; top: -30px; left: 45px;}
 
 ul.react-tabs__tab-list {display:flex; justify-content:space-between;}
 .react-tabs__tab-list {border-bottom:1px solid var(--main_orange);}
-.three_tab_top + .nav-tabs .nav-item.show .nav-link,.three_tab_top + .nav-tabs .nav-link.active {color:var(--text-color); background-color:var(--main_orange); border-color:transparent; border-radius:0;}
+.skilltabSec .nav-tabs .nav-item.show .nav-link, .skilltabSec .nav-tabs .nav-link.active {color: var(--text-color); background-color: var(--main_orange);
+border-color: transparent; border-radius: 0;}
 .three_tab_top + .nav-tabs .nav-link:focus, .three_tab_top + .nav-tabs .nav-link:hover {border-color:transparent;}
 .three_tab_top + .nav-tabs .nav-link:focus, .three_tab_top + .nav-tabs .nav-link:hover {border-color:transparent;}
 .three_tab_top + .nav-fill .nav-item, .nav-fill>.nav-link{flex: none;width: 33.33333333%;}

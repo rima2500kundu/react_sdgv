@@ -55,7 +55,7 @@ function Potential() {
                                 <h4>Opportunities for Working Abroad in the ICT Industry</h4>
                             </li>
                         </ul>
-                        <div className="cmn_btn_grp"><a href="apply-as-talent.html" className="cmn_btn_fill">Apply For Jobs</a></div>
+                        <div className="cmn_btn_grp"><a href="/" className="cmn_btn_fill">Apply For Jobs</a></div>
                     </div>
                 </div>
             </div>

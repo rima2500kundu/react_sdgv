@@ -10,7 +10,7 @@ function Homepgbrk() {
                 </div>
                 <div className="cmn_btn_grp cmn_btn_grp_center">
                     <a href="/" className="cmn_btn_stroke">Download Our Transparent Pricing Guide</a>
-                    <a href="schedule-a-call" className="cmn_btn_fill">Collaborate with the Best in Business</a>
+                    <a href="/" className="cmn_btn_fill">Collaborate with the Best in Business</a>
                 </div>
             </div>        
         </section>

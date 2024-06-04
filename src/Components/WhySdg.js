@@ -1,6 +1,40 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+
+// svg animation js
+const useIntersectionObserver = () => {
+    useEffect(() => {
+      const inViewport = (entries) => {
+        entries.forEach(entry => {
+          entry.target.classList.toggle('is-inViewport', entry.isIntersecting);
+        });
+      };
+  
+      const obsOptions = {
+        root: null, // Use the viewport as the container
+        rootMargin: '0px', // No margin
+        threshold: 0.1 // Trigger when 10% of the element is in the viewport
+      };
+  
+      const observer = new IntersectionObserver(inViewport, obsOptions);
+  
+      // Attach observer to every [data-inviewport] element:
+      const elementsInViewport = document.querySelectorAll('[data-inviewport]');
+      elementsInViewport.forEach(element => {
+        observer.observe(element);
+      });
+  
+      // Cleanup observer on component unmount
+      return () => {
+        elementsInViewport.forEach(element => {
+          observer.unobserve(element);
+        });
+      };
+    }, []);
+  };
+
 
 function WhySdg() {
+    useIntersectionObserver();
   return (
     <>
         <section className="full_width why_sdg" data-inviewport="scale-in">
@@ -43,7 +77,7 @@ function WhySdg() {
                     </div>
                 </div>
 
-                <div className="cmn_btn_grp"><a href="schedule-a-call.html" className="cmn_btn_fill">Hire Developers</a></div>
+                <div className="cmn_btn_grp"><a href="/" className="cmn_btn_fill">Hire Developers</a></div>
             </div>
         </section> 
     </>
