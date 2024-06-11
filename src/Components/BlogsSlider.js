@@ -1,5 +1,5 @@
 import Slider from "react-slick"; import "slick-carousel/slick/slick.css"; import "slick-carousel/slick/slick-theme.css"; export default function BlogsSlider() { const settings = { dots: true, infinite: false, speed: 500, slidesToShow: 3, slidesToScroll: 1, arrows: true, }; return ( <section className="full_width leadership_thaught blog_popular fix_padding">
-  <div className="container">
+  <div className="container blog_popular" id="cmn_slider_btn">
       <div className="text_controller text_controller_center">
           <h2> Most <span>Popular</span> </h2>
           <hr />
