@@ -77,9 +77,9 @@ const ParticlesFunc = () => {
           direction: "none",
           enable: true,
           outModes: {
-            default: "bounce",
+            default: "out",
           },
-          random: false,
+          random: true,
           speed: 0.5,
           straight: false,
         },

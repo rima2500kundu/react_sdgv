@@ -36,9 +36,13 @@ function InnerBanner({
                 </div>
 
                 <div className="cmn_btn_grp">
-                  <NavLink to={priCTALink} className="cmn_btn_fill">
+                {priCTALink === "" || priCTATitle === "" ? (
+                    false
+                  ) : (
+                    <NavLink to={priCTALink} className="cmn_btn_fill">
                     {priCTATitle}
                   </NavLink>
+                  )}                  
                   {secCTALink === "" || secCTATitle === "" ? (
                     false
                   ) : (
