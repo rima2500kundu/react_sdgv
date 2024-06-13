@@ -1,37 +1,30 @@
 // import React, { useState } from 'react';
 
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 // style={{background: "#fafbfd url(images/Cube_gr3.png) no-repeat 70% bottom"}}
 
-function InnerBanner({
+function InnerBannerForm({
   InnBanner,
   BnrRightImg,
   TitleInn,
   ParaInn,
   bgColor,
   bgRepeat,
-  priCTALink,
-  secCTALink,
-  priCTATitle,
-  secCTATitle,
-  BnrLeftImg,
-  BnrLeftImgAlt
+  placeHolderText,
+  submitText,
 }) {
   return (
     <>
-      <section className="full_width Home_banner inner_banner devlper_banner">
-        
+      <section className="full_width Home_banner blog_bnr inner_banner devlper_banner">
         <div
           className="Home_banner_sub"
           style={{
             backgroundImage: InnBanner,
             backgroundColor: bgColor,
             backgroundRepeat: bgRepeat,
-            
           }}
         >
-          {BnrLeftImg !== "" ?  <img src={BnrLeftImg} alt={BnrLeftImgAlt} className="banner-left-top-img" />:false }
           <div className="container">
             <div className="row">
               <div className="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8 Hom_bnr_left inner_bnr_left">
@@ -39,7 +32,7 @@ function InnerBanner({
                   <h1>{TitleInn}</h1>
                   {ParaInn === "" ? false : <p>{ParaInn}</p>}
                 </div>
-                <div className="cmn_btn_grp">
+                {/* <div className="cmn_btn_grp">
                 {priCTALink === "" || priCTATitle === "" ? (
                     false
                   ) : (
@@ -54,7 +47,13 @@ function InnerBanner({
                       {secCTATitle}
                     </NavLink>
                   )}
-                </div>
+                </div> */}
+                <form>
+                      <div class="cmn_btn_grp">
+                          <input type="email" placeholder={placeHolderText} class="cmn_btn_fill" />
+                          <input type="submit" value={submitText} class="cmn_btn_stroke" />
+                      </div>
+                </form>
               </div>
 
               <div className="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 inner_bnr_right">
@@ -72,4 +71,4 @@ function InnerBanner({
   );
 }
 
-export default InnerBanner;
+export default InnerBannerForm;

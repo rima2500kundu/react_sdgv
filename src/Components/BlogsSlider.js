@@ -1,7 +1,7 @@
 import Slider from "react-slick"; 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css"; 
-export default function BlogsSlider() { 
+export default function BlogsSlider({heading, bgColor}) { 
     const fromMainJs = {
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -52,10 +52,10 @@ export default function BlogsSlider() {
     }; 
         
         return ( 
-        <section className="full_width  fix_padding">{/* leadership_thaught blog_popular */}
+        <section className="full_width  fix_padding" style={{backgroundColor: bgColor}}>{/* leadership_thaught blog_popular */}
             <div className="container">
                 <div className="text_controller text_controller_center">
-                    <h2> Most <span>Popular</span> </h2>
+                    <h2>{heading}</h2>
                     <hr />
                 </div>
                 <div>{/* className="thoughts" id="cmn_slider_btn" */}

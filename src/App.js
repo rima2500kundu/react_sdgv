@@ -9,6 +9,8 @@ import Blogs from "./pages/Blogs";
 import BlogDetails from "./pages/BlogDetails";
 import Events from "./pages/Events";
 import EventDetails from "./pages/EventDetails";
+import OurTeam from "./pages/OurTeam";
+import CustomerReview from "./pages/CustomerReview";
 // import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
@@ -39,6 +41,8 @@ function App() {
         <Route path="/blog-detail" element={<BlogDetails />} />
         <Route path="/events" element={<Events />} />
         <Route path="/event-detail" element={<EventDetails />} />
+        <Route path="/our-team" element={<OurTeam />} />
+        <Route path="/customer-review" element={<CustomerReview />} />
       </Routes>
       <Footer />
     </>

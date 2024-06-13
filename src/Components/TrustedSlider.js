@@ -3,8 +3,9 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { NavLink } from "react-router-dom";
 
-function TrustedSlider({ defaultTitle }) {
+function TrustedSlider({ defaultTitle, ctaLink, ctaTitle }) {
   // props
   // const [title] = useState(defaultTitle); // use the props value into state
   // simple props
@@ -161,6 +162,16 @@ function TrustedSlider({ defaultTitle }) {
               </div>
             </Slider>
           </div>
+
+          {ctaLink === "" || ctaTitle === "" ? (
+            false
+          ) : (
+            <div class="cmn_btn_grp">
+              <NavLink href={ctaLink} className="cmn_btn_fill">
+                {ctaTitle}
+              </NavLink>
+            </div>
+          )}
         </div>
       </section>
     </>
