@@ -166,7 +166,7 @@ function TrustedSlider({ defaultTitle, ctaLink, ctaTitle }) {
           {ctaLink === "" || ctaTitle === "" ? (
             false
           ) : (
-            <div class="cmn_btn_grp">
+            <div className="cmn_btn_grp">
               <NavLink href={ctaLink} className="cmn_btn_fill">
                 {ctaTitle}
               </NavLink>

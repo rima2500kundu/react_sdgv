@@ -80,9 +80,9 @@ function SkillTab() {
                                         </div>
                                     </div>
 
-                                    <div class="cmn_btn_grp">
-                                        <a href="/" class="cmn_btn_fill">Hire Developers</a>
-                                        <a href="/" class="cmn_btn_stroke">Apply For Jobs</a>
+                                    <div className="cmn_btn_grp">
+                                        <a href="/" className="cmn_btn_fill">Hire Developers</a>
+                                        <a href="/" className="cmn_btn_stroke">Apply For Jobs</a>
                                     </div>
                                 </Tab>
                             );
@@ -109,9 +109,9 @@ function SkillTab() {
                                             </div>
                                         </div>
 
-                                        <div class="cmn_btn_grp">
-                                            <a href="/" class="cmn_btn_fill">Hire Developers</a>
-                                            <a href="/" class="cmn_btn_stroke">Apply For Jobs</a>
+                                        <div className="cmn_btn_grp">
+                                            <a href="/" className="cmn_btn_fill">Hire Developers</a>
+                                            <a href="/" className="cmn_btn_stroke">Apply For Jobs</a>
                                         </div>
                                     </Accordion.Body>
                                 </Accordion.Item>
