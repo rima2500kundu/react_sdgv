@@ -57,7 +57,7 @@ export default function AccordionComp() {
           <div className="col-md-7 col-sm-6">
             <div className="react_right_img">
               <img
-                src="https://www.sourcedesk.io/public/images/react_acc_img.png"
+                src="images/react_acc_img.png"
                 alt="react_acc_img"
               />
             </div>

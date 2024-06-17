@@ -1,9 +1,14 @@
+import { Helmet } from "react-helmet";
 import BlogsSlider from "../Components/BlogsSlider";
 import InnerBannerForm from "../Components/InnerBannerForm";
 
 export default function Blogs() {
   return (
     <>
+    <Helmet>
+    <title>Sourcedesk Blog: Trends, and Expertise in Business and Technology</title>
+    <meta name="description" content="Stay informed with the Sourcedesk Blog. Explore trends and expertise in business and technology. Elevate your knowledge and stay ahead in your industry." />
+    </Helmet>
       <InnerBannerForm
         TitleInn="Insights"
         InnBanner="url(images/blog_bnr.png)"

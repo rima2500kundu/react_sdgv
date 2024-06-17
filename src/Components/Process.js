@@ -62,7 +62,7 @@ export default function Process() {
           <div class="col-sm-6 col-md-6">
             <div class="react_ft_img">
               <img
-                src="https://www.sourcedesk.io/public/images/react_ft_img.png"
+                src="images/react_ft_img.png"
                 alt="react_ft_img"
               />
             </div>

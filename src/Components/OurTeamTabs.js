@@ -365,8 +365,15 @@ export default function OurTeamTabs() {
           </h2>
           <hr />
         </div>
-        <OurTeamTabbed />
-        <OurTeamAcc />
+        <div className="d-none d-md-block">
+        <OurTeamTabbed  />
+
+        </div>
+        <div className="d-block d-md-none">
+
+
+        <OurTeamAcc  />
+        </div>
       </div>
     </section>
   );
@@ -397,7 +404,7 @@ function OurTeamTabbed() {
 }
 function OurTeamAcc() {
   return (
-    <Accordion defaultActiveKey={null}>
+    <Accordion defaultActiveKey={null} >
       {ourTeam.map((el, i) => (
         <Accordion.Item eventKey={i} key={i}>
           <Accordion.Header>{el.dept}</Accordion.Header>

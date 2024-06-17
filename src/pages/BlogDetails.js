@@ -1,7 +1,92 @@
+import { Helmet } from "react-helmet";
 
 
 export default function BlogDetails() {
-  return <section class="full_width blog_detail_body fix_padding">
+  return <>
+  <Helmet>
+  <title>Top Skills to Look For When Hiring an AI Developer</title>
+
+<meta name="title" content="Top Skills to Look For When Hiring an AI Developer" />
+<meta name="description" content="Looking to hire an AI developer? Discover what skills to look for in these highly desirable professionals during the hiring process." />
+{/* <!-- Canonical & hrefLang --> */}
+<link rel="canonical" href="https://www.sourcedesk.io/blog-details/top-skills-to-look-for-when-hiring-an-ai-developer" />
+<link rel="alternate" hrefLang="x-default" href="https://www.sourcedesk.io/blog-details/top-skills-to-look-for-when-hiring-an-ai-developer" />
+<link rel="alternate" hrefLang="en-US" href="https://www.sourcedesk.io/blog-details/top-skills-to-look-for-when-hiring-an-ai-developer" />
+
+{/* <!-- Twitter Card meta tags --> */}
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@sourcedeskgl" />
+<meta name="twitter:title" content="Top Skills to Look For When Hiring an AI Developer" />
+<meta name="twitter:description" content="Looking to hire an AI developer? Discover what skills to look for in these highly desirable professionals during the hiring process." />
+<meta name="twitter:image" content="https://www.sourcedesk.io/public/images/Twitter-1200x600.jpg" />
+{/* <!-- Facebook Open Graph tags --> */}
+<meta property="og:url" content="https://www.sourcedesk.io/blog-details/top-skills-to-look-for-when-hiring-an-ai-developer" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Top Skills to Look For When Hiring an AI Developer" />
+<meta property="og:description" content="Looking to hire an AI developer? Discover what skills to look for in these highly desirable professionals during the hiring process." />
+<meta property="og:image" content="https://www.sourcedesk.io/public/images/Fcebook-2400x1260.jpg" />
+{/* <!-- Additional Open Graph tags for better customization --> */}
+<meta property="og:image:width" content="2400" />
+<meta property="og:image:height" content="1260" />
+<meta property="og:image:alt" content="SourceDesk Global" />
+<meta property="og:locale" content="en_US" />
+<script type="application/ld+json">
+{`
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.sourcedesk.io/blog-details/top-skills-to-look-for-when-hiring-an-ai-developer"
+  },
+  "headline": "Top Skills to Look For When Hiring an AI Developer",
+  "image": [
+    "https://www.sourcedesk.io/public/images/ai-development-company-how-to-choose-the-right-one-for-your-business.jpg"
+  ],
+  "datePublished": "2024-06-12T08:00:00+00:00",
+  "dateModified": "2024-06-12T09:00:00+00:00",
+  "author": {
+    "@type": "Person",
+    "name": "Sourcedesk Global"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SourceDesk",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.sourcedesk.io/public/images/logo.png"
+    }
+  },
+  "description": "Looking to hire an AI developer? Discover what skills to look for in these highly desirable professionals during the hiring process.",
+  "articleBody": "When hiring an AI developer, it is crucial to look for a blend of technical expertise and soft skills. Key technical skills include proficiency in programming languages like Python, R, Java, and C++, as well as familiarity with machine learning frameworks such as PyTorch, Keras, and TensorFlow."
+`}
+</script>
+<script type="application/ld+json">
+{`
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.sourcedesk.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.sourcedesk.io/blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Skills to Consider for the Role of an AI Developer | Sourcedesk Global",
+      "item": "https://www.sourcedesk.io/blog-details/top-skills-to-look-for-when-hiring-an-ai-developer"
+    }
+  ]
+`}
+</script>
+    </Helmet><section class="full_width blog_detail_body fix_padding">
   <div class="container">
       <div class="text_controller text_controller">
           <h1>Top Skills to Look For When Hiring an AI Developer</h1>
@@ -60,5 +145,5 @@ export default function BlogDetails() {
       <p>An AI expert should have good teamwork and communication abilities to ensure quality project outputs and successfully communicate technical concepts to non-technical team members. </p>
       <p>Hiring the right AI developer involves finding a balance between technical skills and soft skills. At Sourcedesk Global, we look for proficiency in programming, machine learning, and big data technologies. This is coupled with strong problem-solving abilities, adaptability, and communication skills that ensure the development of strong and innovative AI solutions. Sourcedesk Global helps companies both big and small to look for competent AI developers who possess all these qualities. Contact us to make the hiring process easier. Click on “Hire Developers” to fill out your needs or requirements. </p>
   </div>
-</section>
+</section></>
 }

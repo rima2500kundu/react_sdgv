@@ -1,8 +1,155 @@
 import InnerBanner from "../Components/InnerBanner";
 import TrustedSlider from "../Components/TrustedSlider";
+// import React from "react";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import { NavLink } from "react-router-dom";
+import { Helmet } from "react-helmet";
+function CustomerReviewSlider() {
+  const settings = {
+    dots: true,
+    variableWidth:false,
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows: false,
+    adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    appendDots: (dots) => (
+      <div>
+        <ul style={{ margin: "0px" }}> {dots} </ul>
+      </div>
+    ),
+    customPaging: (i) => (
+      <div
+        style={{
+          width: "10px",
+          height: "10px",
+          borderRadius: "50%",
+          backgroundColor: "#c2c2c2",
+        }}
+      ></div>
+    ),
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+        slidesToShow: 1,
+        }
+      }
+    ]
+  };
+  return (
+
+    <div className="slider-container customer-review-slider cus_rev_testi" id="cmn_slider_btn">
+      <Slider {...settings} className="">
+          <div>
+            <div className="testimony_main">
+              <div className="testimony_client">
+                <img
+                  src="images/customer_review_avatar.png"
+                  alt="Img"
+                />
+              </div>
+
+              <div className="testimony_sub">
+                <img
+                  src="images/customer_review_rating.png"
+                  alt="Img"
+                />
+
+                <p>
+                  "Sourcedesk Global's resource hiring service has been a
+                  game-changer for our organization. Their comprehensive
+                  approach to understanding our business needs and culture
+                  ensured that the resources they provided were not just skilled
+                  but also aligned with our values. The entire process was
+                  smooth and efficient, saving us countless hours that we would
+                  have otherwise spent on sourcing, screening, and onboarding
+                  candidates. With their support, we were able to rapidly scale
+                  our team without compromising on quality."
+                </p>
+                <h3>Samantha Lee</h3>
+                <h4>Chief People Officer</h4>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="testimony_main">
+              <div className="testimony_client">
+                <img
+                  src="images/customer_review_avatar.png"
+                  alt="Img"
+                />
+              </div>
+
+              <div className="testimony_sub">
+                <img
+                  src="images/customer_review_rating.png"
+                  alt="Img"
+                />
+
+                <p>
+                  "Sourcedesk Global's resource hiring service has been a
+                  game-changer for our organization. Their comprehensive
+                  approach to understanding our business needs and culture
+                  ensured that the resources they provided were not just skilled
+                  but also aligned with our values. The entire process was
+                  smooth and efficient, saving us countless hours that we would
+                  have otherwise spent on sourcing, screening, and onboarding
+                  candidates. With their support, we were able to rapidly scale
+                  our team without compromising on quality."
+                </p>
+                <h3>Samantha Lee</h3>
+                <h4>Chief People Officer</h4>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="testimony_main">
+              <div className="testimony_client">
+                <img
+                  src="images/customer_review_avatar.png"
+                  alt="Img"
+                />
+              </div>
+
+              <div className="testimony_sub">
+                <img
+                  src="images/customer_review_rating.png"
+                  alt="Img"
+                />
+
+                <p>
+                  "Sourcedesk Global's resource hiring service has been a
+                  game-changer for our organization. Their comprehensive
+                  approach to understanding our business needs and culture
+                  ensured that the resources they provided were not just skilled
+                  but also aligned with our values. The entire process was
+                  smooth and efficient, saving us countless hours that we would
+                  have otherwise spent on sourcing, screening, and onboarding
+                  candidates. With their support, we were able to rapidly scale
+                  our team without compromising on quality."
+                </p>
+                <h3>Samantha Lee</h3>
+                <h4>Chief People Officer</h4>
+              </div>
+            </div>
+          </div>
+      </Slider>
+    </div>
+
+  );
+}
 export default function CustomerReview() {
   return (
     <>
+    <Helmet>
+    <title>Hear from Our Clients: Sourcedesk Customer Reviews and Testimonials</title>
+    <meta name="description" content="Sourcedesk's strength unfolds in client reviews. Explore testimonials revealing satisfaction and success. Elevate your confidence in our exceptional services." />
+    </Helmet>
       <InnerBanner
         bgRepeat="no-repeat"
         bgColor="#fafbfd"
@@ -32,56 +179,14 @@ export default function CustomerReview() {
                 className="vettng_video"
                 style={{
                   background:
-                    "url(https://www.sourcedesk.io/public/images/vttng_prcs_bg.png)",
+                    "url(images/vttng_prcs_bg.png)",
                   backgroundPosition: "50% 50%; background-size: cover",
                 }}
               >
                 <a href="/">
                   <div className="vdo_btn">
                     <img
-                      src="https://www.sourcedesk.io/public/images/vdo_triangle.png"
-                      alt="Icon"
-                    />
-                  </div>
-                </a>
-                <h2>Video Title Here</h2>
-              </div>
-            </div>
-
-            <div>
-              <div
-                className="vettng_video"
-                style={{
-                  background:
-                    "url(https://www.sourcedesk.io/public/images/vttng_prcs_bg.png)",
-                  backgroundPosition: "50% 50%; background-size: cover",
-                }}
-              >
-                <a href="/">
-                  <div className="vdo_btn">
-                    <img
-                      src="https://www.sourcedesk.io/public/images/vdo_triangle.png"
-                      alt="Icon"
-                    />
-                  </div>
-                </a>
-                <h2>Video Title Here</h2>
-              </div>
-            </div>
-
-            <div>
-              <div
-                className="vettng_video"
-                style={{
-                  background:
-                    "url(https://www.sourcedesk.io/public/images/vttng_prcs_bg.png)",
-                  backgroundPosition: "50% 50%; background-size: cover",
-                }}
-              >
-                <a href="/">
-                  <div className="vdo_btn">
-                    <img
-                      src="https://www.sourcedesk.io/public/images/vdo_triangle.png"
+                      src="images/vdo_triangle.png"
                       alt="Icon"
                     />
                   </div>
@@ -116,111 +221,16 @@ export default function CustomerReview() {
         </div>
       </section>
 
-      <section className="full_width cus_rev_testimony fix_padding">
+      <section className="full_width fix_padding" style={{background: "#f9fcfc", overflowX: "hidden"}}>
         <div className="container">
           <div className="text_controller">
             <h2>Customer Feedback and Reviews</h2>
             <hr />
           </div>
         </div>
-
-        <div className="cus_rev_testi slider" id="cmn_slider_btn">
-          <div>
-            <div className="testimony_main">
-              <div className="testimony_client">
-                <img
-                  src="https://www.sourcedesk.io/public/images/customer_review_avatar.png"
-                  alt="Img"
-                />
-              </div>
-
-              <div className="testimony_sub">
-                <img
-                  src="https://www.sourcedesk.io/public/images/customer_review_rating.png"
-                  alt="Img"
-                />
-
-                <p>
-                  "Sourcedesk Global's talent-hiring service has been an
-                  absolute lifesaver for our organization. Finding the right
-                  talent is always a challenge, but their team took that burden
-                  off our shoulders. They truly understood our requirements and
-                  provided us with a pool of exceptional candidates who were not
-                  only technically proficient but also a great cultural fit.
-                  Their streamlined process eliminated the countless hours we
-                  typically spend on screening and interviewing, allowing us to
-                  focus on our core business operations."
-                </p>
-                <h3>Sarah Davis</h3>
-                <h4>VP of Operations</h4>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div className="testimony_main">
-              <div className="testimony_client">
-                <img
-                  src="https://www.sourcedesk.io/public/images/customer_review_avatar.png"
-                  alt="Img"
-                />
-              </div>
-
-              <div className="testimony_sub">
-                <img
-                  src="https://www.sourcedesk.io/public/images/customer_review_rating.png"
-                  alt="Img"
-                />
-
-                <p>
-                  "As a rapidly growing startup, we needed to scale our team
-                  quickly, but the traditional hiring process was proving to be
-                  a major bottleneck. That's when we discovered Sourcedesk
-                  Global. Their team seamlessly integrated with ours, taking
-                  care of the entire recruitment process from start to finish.
-                  They provided us with top-notch developers who hit the ground
-                  running, enabling us to concentrate on executing our vision
-                  without the HR-related headaches."
-                </p>
-                <h3>Alex Rodriguez</h3>
-                <h4>Co-Founder and CTO</h4>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div className="testimony_main">
-              <div className="testimony_client">
-                <img
-                  src="https://www.sourcedesk.io/public/images/customer_review_avatar.png"
-                  alt="Img"
-                />
-              </div>
-
-              <div className="testimony_sub">
-                <img
-                  src="https://www.sourcedesk.io/public/images/customer_review_rating.png"
-                  alt="Img"
-                />
-
-                <p>
-                  "Sourcedesk Global's resource hiring service has been a
-                  game-changer for our organization. Their comprehensive
-                  approach to understanding our business needs and culture
-                  ensured that the resources they provided were not just skilled
-                  but also aligned with our values. The entire process was
-                  smooth and efficient, saving us countless hours that we would
-                  have otherwise spent on sourcing, screening, and onboarding
-                  candidates. With their support, we were able to rapidly scale
-                  our team without compromising on quality."
-                </p>
-                <h3>Samantha Lee</h3>
-                <h4>Chief People Officer</h4>
-              </div>
-            </div>
-          </div>
-        </div>
+        <CustomerReviewSlider />
       </section>
+      
       <div className="full_width trusted_by cr_slider fix_padding">
         <TrustedSlider
           defaultTitle="Discover Clients Who Trust Our Services"
@@ -228,20 +238,21 @@ export default function CustomerReview() {
           ctaTitle="Start Working with Us"
         />
       </div>
-      <section class="full_width vettng_video_black foot_gap sdg_advntg_video_black  ">
-        <div class="container text_controller text_controller_center">
+
+      <section className="full_width vettng_video_black foot_gap sdg_advntg_video_black  ">
+        <div className="container text_controller text_controller_center">
           <h2>Explore Exceptional Talent</h2>
-          <div class="cmn_btn_grp ">
-            <a href="https://www.sourcedesk.io/pricing" class="cmn_btn_fill">
+          <div className="cmn_btn_grp ">
+            <NavLink href="/pricing" className="cmn_btn_fill">
               View Our Pricing Rate Card
-            </a>
-            <a
-              href="https://www.sourcedesk.io/schedule-a-call"
-              class="cmn_btn_stroke"
+            </NavLink>
+            <NavLink
+              href="/schedule-a-call"
+              className="cmn_btn_stroke"
             >
               {" "}
               Connect with Leading Industry Experts{" "}
-            </a>
+            </NavLink>
           </div>
         </div>
       </section>

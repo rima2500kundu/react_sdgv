@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import DevProfileCard from "./DevProfileCard";
 const data = [
   {
@@ -110,12 +111,12 @@ export default function DevProfiles() {
         </div>
 
         <div className="cmn_btn_grp cmn_btn_grp_center">
-          <a
-            href="https://www.sourcedesk.io/schedule-a-call"
+          <NavLink
+            to="/schedule-a-call"
             className="cmn_btn_fill"
           >
             Discover Top ReactJS Developers
-          </a>
+          </NavLink>
         </div>
       </div>
     </section>

@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import AccordionComp from "../Components/AccordionComp";
 import DevProfiles from "../Components/DevProfiles";
 import InnerBanner from "../Components/InnerBanner";
@@ -8,6 +9,11 @@ import TrustedSlider from "../Components/TrustedSlider";
 export default function ReactJs() {
   return (
     <>
+    <Helmet>
+    <title>Hire Deeply-Vetted Remote React JS Developers Now from Sourcedesk</title>
+    <meta name="title" content="Hire Deeply-Vetted Remote React JS Developers Now from Sourcedesk" />
+    <meta name="description" content="Sourcedesk offers highly-vetted React JS developers for remote hire. Elevate your projects with skilled professionals. Hire now for optimal development success." />
+    </Helmet>
       <InnerBanner
         InnBanner="url(images/react_banner_img2.png)"
         bgColor="#fafbfd"
@@ -71,7 +77,7 @@ export default function ReactJs() {
 
             <div class="col-12 col-md-6   col-xl-6 react_mid_cnt">
               <img
-                src="https://www.sourcedesk.io/public/images/react_classif_img.png"
+                src="images/react_classif_img.png"
                 alt="Filter"
               />
             </div>

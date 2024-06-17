@@ -1,12 +1,18 @@
+import { Helmet } from "react-helmet";
 import InnerBanner from "../Components/InnerBanner";
 
 export default function Events() {
-  return <><InnerBanner
-  InnBanner="url(images/banner-bg-events.png)"
+  return <>
+  <Helmet>
+  <title>Discover Events at Sourcedesk: Join Us for Innovation and Networking</title>
+  <meta name="description" content="Explore our Sourcedesk events for innovation and networking. Join us in transformative experiences. Elevate your journey with cutting-edge opportunities." />
+  </Helmet>
+  <InnerBanner
+  InnBanner="url(images/enents_banner.png)"
         bgColor="#fafbfd"
         bgRepeat="no-repeat"
         BnrRightImg="images/dot_dot_circle1.png"
-        BnrLeftImg="images/dot_dot_circle1.png"
+        BnrLeftImg=""
         TitleInn={[
           <span>Events:</span>,<br />,
           "Join Us for a ",<br />, "Memorable Experience",
@@ -84,65 +90,7 @@ export default function Events() {
                 </a> 
             </div>
         </div>
-
-        {/* <div class="thoughts slider" id="cmn_slider_btn">
-            <div>
-                <a href="https://www.sourcedesk.io/event-details/interview-on-vodafone">
-                    <div class="past_evnts_items">
-                        <img src="https://www.sourcedesk.io/public/images/intrvONvodaphone.png" alt="Interview on Vodafone">
-                        <h2>Interview on Vodafone</h2>
-                        <p>SDG’s Office, Toronto</p>
-                        <h4> Aug 27, 2020</h4>
-                    </div>
-                </a> 
-            </div>
-            
-            <div> 
-                <a href="https://www.sourcedesk.io/event-details/quickbooks-connect-toronto-2018">
-                    <div class="past_evnts_items">
-                        <img src="https://www.sourcedesk.io/public/images/quickbooks.png" alt="Quickbooks Connect Toronto 2018">
-                        <h2>Quickbooks Connect Toronto 2018</h2>
-                        <p>Metro Toronto Convention, Toronto, Canada </p>
-                        <h4>Dec 3-5, 2018</h4>
-                    </div>
-                </a>
-            </div>      
-            
-            <div> 
-                <a href="https://www.sourcedesk.io/event-details/live-interview-on-cheddar">
-                    <div class="past_evnts_items">
-                        <img src="https://www.sourcedesk.io/public/images/live-interview-on-cheddar.jpg" alt="Live interview on Cheddar – by @AT&T">
-                        <h2>Live interview on Cheddar – by @AT&T.</h2>
-                        <p>New York, New York</p>
-                        <h4>Sep 18-20, 2018</h4>
-                    </div>  
-                </a> 
-            </div>
-            
-            <div> 
-                <a href="https://www.sourcedesk.io/event-details/accountex-usa">
-                    <div class="past_evnts_items">
-                        <img src="https://www.sourcedesk.io/public/images/accountexUSA.png" alt="Accountex USA">
-                        <h2>Accountex USA</h2>
-                        <p>Hynes Convention Center, Boston, USA</p>
-                        <h4>Aug 22-23, 2018</h4>
-                    </div>
-                </a>  
-            </div>  
-            
-            <div class=""> 
-                <a href="https://www.sourcedesk.io/event-details/hours-to-minutes">
-                    <div class="past_evnts_items">
-                        <img src="https://www.sourcedesk.io/public/images/hrs-to-mins.jpg" alt="‘Hours to Minutes’ – by Hubdoc, Intuit & Plooto">
-                        <h2>‘Hours to Minutes’ – by Hubdoc, Intuit & Plooto</h2>
-                        <p>Aperture Room, Toronto, Canada</p>
-                        <h4>Jun 27-27, 2018</h4>
-                    </div>
-                </a>  
-            </div>       
-        </div>  */}
-
-    </div>
+        </div>
 </section></>
 
 

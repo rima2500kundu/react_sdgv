@@ -6,8 +6,22 @@ export default function BlogsSlider({heading, bgColor}) {
         slidesToShow: 3,
         slidesToScroll: 1,
         dots: true,
-        // focusOnSelect: true,
-        // centerMode: true,
+        arrows: true,
+        appendDots: (dots) => (
+            <div>
+              <ul style={{ margin: "0px" }}> {dots} </ul>
+            </div>
+          ),
+          customPaging: (i) => (
+            <div
+              style={{
+                width: "10px",
+                height: "10px",
+                borderRadius: "50%",
+                backgroundColor: "#c2c2c2",
+              }}
+            ></div>
+          ),
         adaptiveHeight: true,
         autoplay: true,
         autoplaySpeed: 5000,
@@ -42,14 +56,14 @@ export default function BlogsSlider({heading, bgColor}) {
           }
         ]
       }
-    const settings = { 
-        dots: true, 
-        infinite: false, 
-        speed: 500, 
-        slidesToShow: 3, 
-        slidesToScroll: 1, 
-        arrows: true, 
-    }; 
+    // const settings = { 
+    //     dots: true, 
+    //     infinite: false, 
+    //     speed: 500, 
+    //     slidesToShow: 3, 
+    //     slidesToScroll: 1, 
+    //     arrows: true, 
+    // }; 
         
         return ( 
         <section className="full_width  fix_padding" style={{backgroundColor: bgColor}}>{/* leadership_thaught blog_popular */}
@@ -58,7 +72,7 @@ export default function BlogsSlider({heading, bgColor}) {
                     <h2>{heading}</h2>
                     <hr />
                 </div>
-                <div>{/* className="thoughts" id="cmn_slider_btn" */}
+                <div className="slider-container thoughts" id="cmn_slider_btn">{/* className="thoughts" id="cmn_slider_btn" */}
                 <Slider {...fromMainJs}>
                     <div>
                         <div className="ldrshp_thght_items"> <img src="images/Embracing-the-power-of-dedicated-full-stack-JavaScript-developers.jpg" alt="full-stack JavaScript teams" />

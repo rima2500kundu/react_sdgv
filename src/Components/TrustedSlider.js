@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { NavLink } from "react-router-dom";
 
-function TrustedSlider({ defaultTitle, ctaLink, ctaTitle }) {
+function TrustedSlider({ defaultTitle = "Trusted By", ctaLink="", ctaTitle="" }) {
   // props
   // const [title] = useState(defaultTitle); // use the props value into state
   // simple props
@@ -20,6 +20,7 @@ function TrustedSlider({ defaultTitle, ctaLink, ctaTitle }) {
     slidesToShow: 7,
     slidesToScroll: 7,
     initialSlide: 0,
+    arrows: false,
 
     appendDots: (dots) => (
       <div>
