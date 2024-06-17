@@ -42,7 +42,7 @@ export default function Events() {
             <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
                 <a href="https://www.sourcedesk.io/event-details/interview-on-vodafone" class="card-anchor">
                     <div class="past_evnts_items">
-                        <div class="img-wrapper"><img src="https://www.sourcedesk.io/public/images/intrvONvodaphone.png" alt="Interview on Vodafone" /></div>
+                        <div class="img-wrapper"><img src="images/intrvONvodaphone.png" alt="Interview on Vodafone" /></div>
                         <h2>Interview on Vodafone</h2>
                         <p>SDG’s Office, Toronto</p>
                         <h4> Aug 27, 2020</h4>
@@ -52,7 +52,7 @@ export default function Events() {
             <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
                 <a href="https://www.sourcedesk.io/event-details/quickbooks-connect-toronto-2018" class="card-anchor">
                     <div class="past_evnts_items">
-                        <div class="img-wrapper"><img src="https://www.sourcedesk.io/public/images/quickbooks.png" alt="Quickbooks Connect Toronto 2018" /></div>
+                        <div class="img-wrapper"><img src="images/quickbooks.png" alt="Quickbooks Connect Toronto 2018" /></div>
                         <h2>Quickbooks Connect Toronto 2018</h2>
                         <p>Metro Toronto Convention, Toronto, Canada </p>
                         <h4>Dec 3-5, 2018</h4>
@@ -62,7 +62,7 @@ export default function Events() {
             <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
                 <a href="https://www.sourcedesk.io/event-details/live-interview-on-cheddar" class="card-anchor">
                     <div class="past_evnts_items">
-                        <div class="img-wrapper"><img src="https://www.sourcedesk.io/public/images/live-interview-on-cheddar.jpg" alt="Live interview on Cheddar – by @AT&amp;T" /></div>
+                        <div class="img-wrapper"><img src="images/live-interview-on-cheddar.jpg" alt="Live interview on Cheddar – by @AT&amp;T" /></div>
                         <h2>Live interview on Cheddar – by @AT&amp;T.</h2>
                         <p>New York, New York</p>
                         <h4>Sep 18-20, 2018</h4>
@@ -72,7 +72,7 @@ export default function Events() {
             <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
                 <a href="https://www.sourcedesk.io/event-details/accountex-usa" class="card-anchor">
                     <div class="past_evnts_items">
-                        <div class="img-wrapper"><img src="https://www.sourcedesk.io/public/images/accountexUSA.png" alt="Accountex USA" /></div>
+                        <div class="img-wrapper"><img src="images/accountexUSA.png" alt="Accountex USA" /></div>
                         <h2>Accountex USA</h2>
                         <p>Hynes Convention Center, Boston, USA</p>
                         <h4>Aug 22-23, 2018</h4>
@@ -82,7 +82,7 @@ export default function Events() {
             <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
                 <a href="https://www.sourcedesk.io/event-details/hours-to-minutes" class="card-anchor">
                     <div class="past_evnts_items">
-                        <div class="img-wrapper"><img src="https://www.sourcedesk.io/public/images/hrs-to-mins.jpg" alt="‘Hours to Minutes’ – by Hubdoc, Intuit &amp; Plooto" /></div>
+                        <div class="img-wrapper"><img src="images/hrs-to-mins.jpg" alt="‘Hours to Minutes’ – by Hubdoc, Intuit &amp; Plooto" /></div>
                         <h2>‘Hours to Minutes’ – by Hubdoc, Intuit &amp; Plooto</h2>
                         <p>Aperture Room, Toronto, Canada</p>
                         <h4>Jun 27-27, 2018</h4>

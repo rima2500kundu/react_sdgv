@@ -14,9 +14,9 @@ function Footer() {
             <div className="row">
               <div className="col-12 col-md-4 col-sm-12 col-lg-4 col-xl-4">
                 <div className="footer_sub_logo">
-                  <a href="/">
+                  <NavLink to="/">
                     <img src="images/logo_black.png" alt="Logo" />
-                  </a>
+                  </NavLink>
                 </div>
                 <div className="footer_sub_map">
                   <img src="images/world_map.png" alt="images" />
@@ -105,19 +105,19 @@ function Footer() {
                     <h2>Developer</h2>
                     <ul>
                       <li>
-                        <a href="/">Hire Developer By Specific Skills</a>
+                        <NavLink to="/">Hire Developer By Specific Skills</NavLink>
                       </li>
                       <li>
-                        <a href="/">Hire Development Team</a>
+                        <NavLink to="/">Hire Development Team</NavLink>
                       </li>
                       <li>
-                        <a href="/">Book A Call</a>
+                        <NavLink to="/">Book A Call</NavLink>
                       </li>
                       <li>
-                        <a href="/">Job Description Example</a>
+                        <NavLink to="/">Job Description Example</NavLink>
                       </li>
                       <li>
-                        <a href="/">Employer Referral</a>
+                        <NavLink to="/">Employer Referral</NavLink>
                       </li>
                     </ul>
                   </div>
@@ -126,10 +126,10 @@ function Footer() {
                     <h2>Candidate</h2>
                     <ul>
                       <li>
-                        <a href="/">Employee Referral</a>
+                        <NavLink to="/">Employee Referral</NavLink>
                       </li>
                       <li>
-                        <a href="/">Resume Guide</a>
+                        <NavLink to="/">Resume Guide</NavLink>
                       </li>
                     </ul>
                   </div>
@@ -138,13 +138,13 @@ function Footer() {
                     <h2>Support</h2>
                     <ul>
                       <li>
-                        <a href="/">Contact Us</a>
+                        <NavLink to="/">Contact Us</NavLink>
                       </li>
                       <li>
-                        <a href="/">Privacy Policy</a>
+                        <NavLink to="/">Privacy Policy</NavLink>
                       </li>
                       <li>
-                        <a href="/">Terms of Service</a>
+                        <NavLink to="/">Terms of Service</NavLink>
                       </li>
                     </ul>
                   </div>
@@ -153,13 +153,13 @@ function Footer() {
                     <h2>About Us</h2>
                     <ul>
                       <li>
-                        <a href="/">Social Responsibility</a>
+                        <NavLink to="/">Social Responsibility</NavLink>
                       </li>
                       <li>
                         <NavLink to="/events">Events</NavLink>
                       </li>
                       <li>
-                        <a href="/">Customer Reviews</a>
+                        <NavLink to="/customer-review">Customer Reviews</NavLink>
                       </li>
                       <li>
                         <NavLink to="/blogs">Blog</NavLink>
@@ -168,7 +168,7 @@ function Footer() {
                         <NavLink href="/">Career</NavLink>
                       </li>
                       <li>
-                        <a href="/">Culture and Values</a>
+                        <NavLink to="/">Culture and Values</NavLink>
                       </li>
                     </ul>
                   </div>
@@ -179,29 +179,29 @@ function Footer() {
                     <h2>Connect With Us</h2>
                     <ul>
                       <li>
-                        <a href="/">
+                        <NavLink to="/">
                           <img src="images/instagram.png" alt="Icon" />
-                        </a>
+                        </NavLink>
                       </li>
                       <li>
-                        <a href="/">
+                        <NavLink to="/">
                           <img src="images/fb.png" alt="Icon" />
-                        </a>
+                        </NavLink>
                       </li>
                       <li>
-                        <a href="/">
+                        <NavLink to="/">
                           <img src="images/twitter.png" alt="Icon" />
-                        </a>
+                        </NavLink>
                       </li>
                       <li>
-                        <a href="/">
+                        <NavLink to="/">
                           <img src="images/in.png" alt="Icon" />
-                        </a>
+                        </NavLink>
                       </li>
                       <li>
-                        <a href="/">
+                        <NavLink to="/">
                           <img src="images/youtube.png" alt="Icon" />
-                        </a>
+                        </NavLink>
                       </li>
                     </ul>
                   </div>
