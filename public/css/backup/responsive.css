@@ -13,7 +13,6 @@
   .main_header.fixed-theme .container {padding-block:15px}
   .fixed-theme .head_logo a img {max-width:160px}
   .fixed-theme .nav-bar {top:10px}
-  .We_hrns_usp li {margin-bottom:1rem;}
   .We_hrns_usp li {display:flex; text-align:center; min-height:auto; padding:0 2%; width:100%; margin-bottom:15px}
   .We_hrns_usp ul {display:flex; flex-wrap:wrap}
   .Team_hire_bt li {width:100%; margin-right:0; margin-bottom:85px; padding:10px}
@@ -42,7 +41,6 @@
   .tlnt_sec_top_left {margin-bottom:20px}
   .tlnt_sec_top_right {padding-left:0; border-left:none}
   .tlnt_sec_top_right p, .tlnt_sec_top_right p:last-child {font-size:18px; text-align:center}
-  .tlnt_sec_top_right h3, .tlnt_sec_top_right h3 span {font-size:18px; text-align:center;}
   ul.resp-tabs-list {display:none !important}
   .three_tab_bottom {margin-top:0 !important}
   .three_tab_bt_top_left {width:100%}
@@ -81,12 +79,9 @@
   .three_tab, .Human_img, .fix_padding {padding:60px 0}
   h2.resp-tab-active span.resp-arrow {border-bottom-color:#fff}
   h2.resp-tab-active, .three_tab_bottom .resp-tab-active {background:#f25d23 !important; color:#fff}
-  h4.resp-tab-active, .three_tab_bottom .resp-tab-active {background:#f25d23 !important; color:#fff;}
   .home_talent_tab {display:inline-block; padding:0}
   .talent_sec_bottom .resp-tab-content ul li {width:45%; height:2.5rem}
   .talent_sec_bottom .resp-tabs-container {padding:10px; width:100% !important}
-  .home_pgbk .cmn_btn_grp {flex-direction:column; align-items:center;}
-.home_pgbk .cmn_btn_stroke {margin:0 0 25px;}
   .desk_tb_content {padding:0}
   .desk_tb_content ul li {width:45%; height:2.5rem}
   .desk_tb_content ul li img {width:75%}
@@ -96,14 +91,12 @@
   .three_tab_bottom .cmn_btn_stroke {padding-inline:20px}
   .three_tab_bottom .resp-tabs-container {margin-top:0}
   .Team_hire_bt h2 {margin:10px 0 11px 26px}
-  .Team_hire_bt h3 {margin:10px 0 11px 26px;}
   .Team_hire_bt ul {display:flex; flex-wrap:wrap}
   .home_pgbk .cmn_btn_stroke, .home_pgbk .cmn_btn_fill {font-size:20px; padding:15px 30px}
   #horizontalTab2 .resp-tabs-list li:nth-child(6), #horizontalTab_cnt .resp-tabs-list li:nth-child(6) {left:40px; top:28px}
   #horizontalTab2 .resp-tabs-list li:nth-child(7), #horizontalTab_cnt .resp-tabs-list li:nth-child(7) {left:59px; top:41px}
   #horizontalTab2 .resp-tabs-list li, #horizontalTab_cnt .resp-tabs-list li {width:11px; height:11px}
-  .how_wrks_pgbk ul li {white-space:inherit; font-size:20px}  
-.how_wrks_pgbk ul li h3 {font-size:20px;}
+  .how_wrks_pgbk ul li {white-space:inherit; font-size:20px}
   .our_success .talent_sec_top {display:block}
   .our_success .tlnt_sec_top_right, .our_success .tlnt_sec_top_left {width:100%}
   .our_success .text_controller h2 {line-height:36px}
@@ -148,7 +141,7 @@
   .list_para {padding:10px; font-size:17px; min-height:155px}
   .list_para br {display:none}
   .prcng_sec_item {margin-top:25px; margin-inline:0}
-  .prcng_sec_item h4 {margin:20px 0;}
+  .prcng_sec_item h4 {min-height:30px; margin:20px 0}
   .prcng_sec_item h2 {font-size:60px}
   .prcng_sec_item_text {padding:10px}
   .prcng_sec_item_icon {padding:20px; height:136px}
@@ -195,7 +188,6 @@
   .Acclrte_crton_text {width:80%}
   .sdg_vs_others_table li:first-child div {font-size:20px}
   .sdg_vs_others_table li div {font-size:16px; padding:0 9px}
-  .sdg_vs_others_table li div h3 {font-size:16px;}
   .SDGvsOTHERS .cmn_btn_grp {margin-top:55px}
   .sdg_advntg_video_black.vettng_video_black {padding:60px 0 !important}
   .cmn_btn_fill {text-align:center}
@@ -274,14 +266,13 @@
   .grnn_initiatives {padding-bottom:0}
   .social_pm_last {padding-bottom:0}
   .past_events .thoughts .slick-slide {padding:0 20px}
-  /* .past_events .container {padding:0} */
+  .past_events .container {padding:0}
   .past_events .text_controller {padding:0 15px}
   .past_events #cmn_slider_btn .slick-dots {margin-top:0}
   .whychse_automationTster .Acclrte_crton_img {margin-top:10px}
   .list_of_tools ul {margin-top:20px}
   .aumation_pointing + footer {margin-top:0}
-  .uniq_infrmtn_left {width:100%; font-size:18px; padding:0 15px; text-align:center; clip-path:circle(86.6% at 38% 85%)}  
-.uniq_infrmtn_left h3 {font-size:18px;}
+  .uniq_infrmtn_left {width:100%; font-size:18px; padding:0 15px; text-align:center; clip-path:circle(86.6% at 38% 85%)}
   .uniq_infrmtn_down li {height:auto; display:inline-block}
   .uniq_infrmtn_right {line-height:22px; width:100%; padding:10px; text-align:center}
   .unique_information {padding-bottom:0}
@@ -373,8 +364,6 @@
   .blog_popular .ldrshp_thght_items {padding:15px}
   .blog_pgbk .cmn_btn_grp {flex-direction:column}
   .blog_pgbk .cmn_btn_stroke, .blog_pgbk .cmn_btn_fill {width:100%; padding-block:15px; margin-right:0; margin-bottom:15px}
-  .blog_pgbk .cmn_btn_grp .cmn_btn_fill, .blog_pgbk .cmn_btn_grp .cmn_btn_fill:hover {color:#000;}
-.blog_pgbk .cmn_btn_grp .cmn_btn_stroke, .blog_pgbk .cmn_btn_grp .cmn_btn_stroke:hover, .blog_pgbk .cmn_btn_grp .cmn_btn_stroke:active {color:#fff;}
   .blog_pgbk input:last-child {margin-bottom:0}
   .blog_bnr .cmn_btn_grp .cmn_btn_fill::placeholder {font-size:15px}
   .culture_values_zicZac {margin-top:0}
@@ -511,7 +500,6 @@
   .header_links ul {align-items:center}
   .Hmn_img_bt_left li {width:100%; margin-bottom:20px; line-height:28px}
   .Hiring_Genius .row li {font-size:20px; margin-bottom:87px; line-height:22px; width:100%; text-align:left}
-  .Hiring_Genius .row li h3 {font-size:20px;}
   .Hrng_Gns_right ul {margin-top:0}
   .Hrng_Gns_right ul li {margin-bottom:70px !important}
   .Hiring_Genius .row li::after {width:50px}
@@ -520,10 +508,8 @@
   .Hrng_Gns_filter h2 {font-size:25px}
   .hng_gns_finalPoint {width:55px; height:55px; font-size:25px}
   .Team_hire_bt h2 {font-size:17px}
-  .Team_hire_bt h3 {font-size:17px;}
   .Team_hire_bt_icon {width:50px; height:50px}
   .Team_hire_bt h2 {margin:15px 0}
-  .Team_hire_bt h3 {margin:15px 0;}
   .Team_hire_bt p br {display:none}
   .Team_hire_bt p {font-size:14px; min-height:140px}
   .Team_hire_bt_number {width:100px; height:100px; font-size:35px; margin-bottom:-80px; margin-top:10px; padding:0}
@@ -546,7 +532,6 @@
   #horizontalTab2 h2.resp-accordion {display:none !important}
   h2.resp-tab-active span.resp-arrow {border-bottom-color:#fff}
   h2.resp-tab-active, .three_tab_bottom .resp-tab-active {background:#f25d23 !important; color:#fff}
-  h4.resp-tab-active, .three_tab_bottom .resp-tab-active {background:#f25d23 !important; color:#fff;}
   .footer_sub_map img {width:100%}
   .connect_us {width:60%}
   .copyright .container {padding:15px}
@@ -559,7 +544,6 @@
   .Hiring_Genius .row {margin-top:35px}
   .home_pgbk .cmn_btn_stroke, .home_pgbk .cmn_btn_fill {font-size:16px; padding:20px 25px}
   .how_wrks_pgbk ul li {white-space:normal; font-size:20px}
-  .how_wrks_pgbk ul li h3 {font-size:20px;}
   .stppng_accordian .accordion-body {padding-inline:20px}
   .our_success .text_controller h2 {line-height:44px}
   .our_success .text_controller span {font-size:55px; line-height:52px}
@@ -593,13 +577,13 @@
   .prcng_sec_item_icon img {width:55px}
   .prcng_sec_item_icon {height:114px; padding:16px}
   .prcng_sec_item_text {padding:10px}
-  .prcng_sec_item h4 {margin:20px 0 40px;}
+  .prcng_sec_item h4 {margin:20px 0 40px; min-height:25px}
   .prcng_sec_item h2 {font-size:45px}
   .pricing_sec {margin-bottom:426px}
   .account_pricing_sec.pricing_sec {margin-bottom:210px}
   .talent_sec .text_controller h2 br {display:block}
   .our_success .row {margin-top:40px}
-  .our_success_text h2 {margin:10px 0;}
+  .our_success_text h2 {margin:15px 0}
   .our_success_text a {margin-top:10px}
   .Hiring_Genius .row li::before {width:40px; height:40px; display:none !important}
   .every_talent .We_hrns_usp_icon {width:50px; height:50px}
@@ -759,7 +743,6 @@
   .pricing_tab #horizontalTab3 .resp-tab-item {padding:20px 22px !important}
   .pricing_tab #horizontalTab3 .resp-tab-active.resp-tab-item {padding:20px 22px !important}
   .our_price .sdg_devlopers_technologies ul li {width:49%; font-size:20px; background-size:25px; line-height:23px; min-height:73px; background-position-x:13px; padding-left:52px}
-/* .our_price .sdg_devlopers_technologies ul li h3 {font-size:20px;} */
   .our_price.vrtul_asstnt_devloper .sdg_devlopers_technologies ul li:nth-child(2n+2) {margin-right:0 !important}
   .our_price.vrtul_asstnt_devloper .sdg_devlopers_technologies ul li:nth-child(3n+3) {margin-right:1.9%}
   .our_price {padding-bottom:35px}
@@ -854,7 +837,6 @@
   .Hrng_Gns_filter_point {position:relative; bottom:-130px}
   .home_genius {padding-bottom:100px}
   .talent_sec_bottom .resp-vtabs .resp-tab-item {font-size:24px; padding-right:65px !important}
-  .talent_sec_bottom .resp-vtabs .resp-tab-item h4 {font-size:24px;}
   .bookprs_profile + .pricing_sec {margin-bottom:160px}
   .acc_process .Hrng_Gns_right li {padding-left:0}
   .sdg_advntg_video_black.vettng_video_black {margin-top:0; padding:40px 0 !important}
@@ -948,7 +930,7 @@
   .inner_banner .Home_banner_sub {height:auto !important; padding:30px 0;}
   .home_pgbk .cmn_btn_grp {margin-top:30px}
   .main_header .container {padding:25px 15px}
-  .Home_banner {margin-top:115px}
+  .Home_banner {margin-top:98px}
   .inner_banner::before {display:none}
   .prcng_sec_item_icon {height:132px}
   .prcng_sec_item_icon img {width:80px}
@@ -991,7 +973,7 @@
   .pursing_mission .text_controller h2 {font-size:55px}
   .pursing_mission .text_controller h3 {font-size:38px; margin:5px 0 30px}
   .past_events .thoughts .slick-slide {padding:0}
-  /* .past_events .container {padding:0} */
+  .past_events .container {padding:0}
   .past_events .text_controller {padding:0 15px}
   .past_events #cmn_slider_btn .slick-dots {margin-top:0}
   .atmntn_profile .cmn_btn_grp {margin-top:30px}
@@ -1011,7 +993,7 @@
   .aumation_pointing .Hrng_Gns_right li:last-child::after {left:-78px}
   .aumation_pointing .cmn_btn_grp {margin-top:0}
   .prcng_sec_item h2 {font-size:55px}
-  /* .prcng_sec_item h4 {min-height:20px} */
+  .prcng_sec_item h4 {min-height:20px}
   .hire_dvlope_pg_tm .Hrng_Gns_right ul li {margin-bottom:30px !important}
   .hire_dvlope_pg_tm .Hrng_Gns_left {padding-left:calc(var(--bs-gutter-x) * .5); padding-right:calc(var(--bs-gutter-x) * .5)}
   .hire_dvlope_pg_tm .Hrng_Gns_right {padding-right:calc(var(--bs-gutter-x) * .5)}
@@ -1047,7 +1029,7 @@
   .tchnl_skill_item h2 {margin-bottom:12px; min-height:60px}
   .technical_skills .cmn_btn_grp {margin-top:30px}
   .sem_ppc_hire.remote_tester.dm_hire_staff .Hrng_Gns_right ul li:first-child::before {top:-23%; left:-80px}
-  .sem_ppc_hire .Hrng_Gns_right ul li:first-child::after {background-size:46%; top:-55px !important}
+  .sem_ppc_hire .Hrng_Gns_right ul li:first-child::after {background-size:46%; top:-55px}
   .sem_ppc_hire .Hrng_Gns_left ul li:first-child::after {background-size:65%; right:-22px; top:-17px}
   .sem_ppc_hire.dm_hire_staff.Hiring_Genius .row li {margin-bottom:134px}
   .sem_ppc_hire.remote_dvloper .row h2 {font-size:20px}
@@ -1152,7 +1134,6 @@
   .We_harness_bottom, .Hiring_Genius .row {margin-top:50px}
   .home_pgbk .cmn_btn_stroke, .home_pgbk .cmn_btn_fill {font-size:20px; padding:20px 40px}
   .Hiring_Genius .row li {margin-bottom:108px}
-  .Hiring_Genius .Hrng_Gns_right li {margin-bottom:98px;}
   .Hiring_Genius .Hrng_Gns_right li {margin-bottom:73px}
   .Hiring_Genius .row li::after {width:80px}
   .Hrng_Gns_filter h2 {font-size:30px}
@@ -1167,7 +1148,6 @@
   .pricing_tab .prcng_sec_item_icon img {width:75px}
   .sdg_devlopers_technologies {padding:15px 1.5%}
   .our_price .sdg_devlopers_technologies ul li {font-size:20px; background-size:7%; background-repeat:no-repeat; padding-left:56px; background-position:14px 50%; min-height:80px}
-  .our_price .sdg_devlopers_technologies ul li h3 {font-size:20px;}
   .add_ons_item h2 {font-size:30px; margin-bottom:25px}
   .add_ons_item td {padding:18px 15px; font-size:19px}
   .ldrshp_thght_items {padding:20px}
@@ -1182,7 +1162,7 @@
   .sem_ppc_hire .Hrng_Gns_right ul li:last-child::before {bottom:5px !important; left:-73px !important}
   .sem_ppc_hire .Hrng_Gns_right li:first-child {margin-bottom:0 !important; margin-top:70px !important}
   .sem_ppc_hire.dm_hire_staff.Hiring_Genius .Hrng_Gns_right li:last-child {margin-top:50px !important}
-  .sem_ppc_hire .Hrng_Gns_left ul li:first-child::after {background-size:52% !important; right:-39px !important; top:-21px}
+  .sem_ppc_hire .Hrng_Gns_left ul li:first-child::after {background-size:52% !important; right:-39px !important; top:-21px !important}
   .sem_ppc_hire.dm_hire_staff.Hiring_Genius .row li {margin-bottom:0px; margin-top:57px !important}
   .sem_ppc_hire .Hrng_Gns_left ul li:last-child::before {top:30px!important; right:30px !important}
   .sem_ppc_hire.remote_dvloper .row h2 {font-size:20px}
@@ -1226,7 +1206,6 @@
   .account_pricing_sec .prcng_sec_item_icon h5 {font-size:22px}
   .digital_mark_parameter {background:none}
   .dm_hire_staff.remote_dvloper.Hiring_Genius .row .Hrng_Gns_left li:first-child:before {right:-97px; top:-25%}
-  .dm_hire_staff.remote_tester .Hrng_Gns_left ul li:first-child::after {height:43px; top:-39px !important; right:-124px;}
   .dm_hire_staff.remote_tester .Hrng_Gns_left ul li:first-child::after {height:43px; top:-39px; right:-124px}
   .dm_hire_staff.remote_tester .Hrng_Gns_left ul li:last-child::after {right:-142px; top:1px}
   .dm_hire_staff.remote_dvloper.Hiring_Genius .row .Hrng_Gns_left li:last-child:before {right:-52px; top:8px}
@@ -1245,7 +1224,6 @@
   .remote_dvloper.Hiring_Genius .row .Hrng_Gns_left li:first-child:before {top:-15%}
   .remote_dvloper.Hiring_Genius .row .Hrng_Gns_left li:last-child:before {top:-8%}
   .remote_dvloper.Hiring_Genius .row li::after {top:12px}
-  .vrtul_asstnt_staff.remote_dvloper.Hiring_Genius .row li:last-child:after {top:10px !important;}
   .vrtul_asstnt_staff.remote_dvloper.Hiring_Genius .row li:last-child:after {top:15px}
   .vrtul_asstnt_staff.remote_dvloper.Hiring_Genius .Hrng_Gns_right li:last-child:after {top:18px}
   .vrtul_asstnt_staff.remote_dvloper.Hiring_Genius .row .Hrng_Gns_left li:first-child:before {top:-20%; right:-32px}
@@ -1334,7 +1312,6 @@
   .manual_hire.aumation_pointing.remote_dvloper .Hrng_Gns_right li:last-child:before {left:-57px; top:27%}
   .manual_hire.aumation_pointing.vrtul_asstnt_staff.remote_dvloper.Hiring_Genius .Hrng_Gns_right li:last-child:after {top:15px}
   .how_wrks_pgbk ul li {font-size:18px; line-height:30px}
-  .how_wrks_pgbk ul li h3 {font-size:18px; line-height:30px;}
   .guarntee_text {padding-top:0}
   .remote_dvloper .Hrng_Gns_left ul li:last-child::after {top:14px !important}
   .sftr_tstr_engineer .Hrng_Gns_right li, .sftr_tstr_engineer.aumation_pointing.remote_dvloper.Hiring_Genius .Hrng_Gns_right li:first-child {padding-left:37%}
@@ -1407,13 +1384,11 @@
   .why_sdg_graphics {top:77px}
   .three_tab_bt_top_left ul li {width:50%}
   .Team_hire_bt ul li {display:flex; flex-wrap:wrap}
-  .Team_hire_bt li {width:46% ; margin:20px 10px 65px 10px;}
   .Team_hire_bt li {width:46%; margin:20px 10px 65px 10px}
   .Team_hire .cmn_btn_grp {margin-top:50px}
   .We_hrns_usp_icon {width:70px; height:70px}
   .prcng_sec_item h2 {font-size:30px}
   .prcng_sec_item h2 sup {font-size:20px}
-  .prcng_sec_item h4 {font-size:17px; margin:20px 0 30px;}
   .prcng_sec_item h4 {font-size:17px; margin:20px 0 30px; min-height:50px}
   .prcng_sec_item_icon {height:96px; padding:11px}
   .prcng_sec_item_icon img {width:55px}
@@ -1446,14 +1421,13 @@
   .bnr_nonen, .devlper_banner.inner_banner::before {background-image:none !important}
   .slick-arrow {display:none !important}
   .thoughts .slick-arrow {display:block !important}
-  .past_events .slick-arrow {display:none !important;}
   .thoughts {padding:0 3rem !important}
   .thoughts#cmn_slider_btn .slick-next {right:-8px}
   .thoughts#cmn_slider_btn .slick-prev {left:-5px}
   }
   
   @media (min-width: 1200px) and (max-width:1300px) {
-  /* .why_sdg_graphics {top:9px} */.why_sdg_graphics {top:41px;}
+  .why_sdg_graphics {top:9px}
   .two_dots {height:155px}
   }
   
@@ -1507,25 +1481,19 @@
   @media screen and (max-width: 1400px) {
   .hide-bg-early-1400 {background:#fafbfd !important}
   .hide-bg-early-1400-f9fcfc {background:#f9fcfc !important}
-  .hide-bg-early-1400-events {background:#f9fcfc url(../images/banner-bg-events.png) no-repeat 50% 50% !important;}
-.hide-bg-early-1400-events-details {background:#f9fcfc url(../images/events-pg-bg.png) no-repeat center/cover !important;}
-.hide-bg-early-1400-automation-tester {background:#f9fcfc url(../images/banner-bg-automation-tester.png) no-repeat 50% 50% !important;}
   .developer-faqs h2 {font-size:3.5rem}
   .section-testimonials h2 span:first-child {font-size:3rem}
   .section-testimonials h2 span:last-child {font-size:2rem}
   .section-cta-form-full .text_controller span:first-child {font-size:2.5rem}
   .section-cta-form-full .text_controller span:last-child {font-size:1.5rem; color:black}
   .section-cta-form-full .text_controller p {font-size:1.2rem}
-  .section-cta-form-full .text_controller h3 {font-size:1.2rem;}
   .section-industries .text_controller {font-size:2.5rem}
   }
   
   @media screen and (max-width: 1200px) {
-  .developer-faqs h2 {font-size:3.25rem}  
-.hide-bg-early-1400-events-details {background:#f9fcfc !important;}
+  .developer-faqs h2 {font-size:3.25rem}
   .section-technologies .text_controller {text-align:center; font-size:3rem}
   .section-whats-included .resp-tab-item {font-size:1.25rem}
-  .past_evnts_items .img-wrapper {height:200px;}
   }
   
   @media screen and (max-width: 992px) {
@@ -1534,10 +1502,8 @@
   .section-cta-form-full .text_controller span:first-child {font-size:1.75rem}
   .section-cta-form-full .text_controller span:last-child {font-size:1.25rem; color:black}
   .section-cta-form-full .text_controller p {font-size:1rem}
-  .section-cta-form-full .text_controller h3 {font-size:1rem;}
   .section-industries .text_controller {font-size:2rem}
   .developer-cta h2 {font-size:2.5rem; color:#fff}
-  .past_evnts_items .img-wrapper {height:160px;}
   .section-technologies .text_controller {text-align:center; font-size:2.5rem}
   .section-whats-included .resp-tabs-container .text_controller span {font-size:1.875rem}
   }
@@ -1554,10 +1520,8 @@
   .section-cta-form-full .text_controller span:first-child {font-size:1.875rem}
   .section-cta-form-full .text_controller span:last-child {font-size:1.25rem; color:black}
   .section-cta-form-full .text_controller p {font-size:1rem}
-  .section-cta-form-full .text_controller h3 {font-size:1rem;}
   .section-industries .text_controller {font-size:1.875rem}
   .developer-cta h2 {font-size:2rem; color:#fff}
-  .past_evnts_items .img-wrapper {height:200px;}
   .section-technologies .text_controller {text-align:center; font-size:2rem}
   .section-whats-included .resp-tabs-container .text_controller span {font-size:1.75rem}
   .section-whats-included .resp-tab-item {font-size:1rem}
@@ -1575,7 +1539,6 @@
   .section-cta-form-full form label {margin-bottom:.25rem}
   .section-cta-form-full form input {padding:.5rem}
   .section-cta-form-full form textarea {padding:.5rem}
-  .past_evnts_items .img-wrapper {height:280px;}
   .section-technologies .text_controller {text-align:center; font-size:1.875rem}
   .section-whats-included .resp-tabs-container .text_controller span {font-size:1.25rem}
   }
@@ -1621,56 +1584,3 @@
   .why_sdg_row h4 {min-height:0px}
   .remote_dvloper .Hrng_Gns_right li:first-child {margin-top:0px}
   }
-  @media (max-width: 1200px) {
-    .Hiring_Genius.manual_hire ul li::before {content:none;}
-    .Hiring_Genius.manual_hire ul li::after {content:none;}
-    }
-    
-    @media (max-width: 1600px) {
-    #horizontalTab2 .resp-tabs-list li:first-child {left:72px; top:23px;}
-    #horizontalTab2 .resp-tabs-list li:nth-child(2) {left:73px; top:112px;}
-    #horizontalTab2 .resp-tabs-list li:nth-child(3) {left:256px; top:76px;}
-    #horizontalTab2 .resp-tabs-list li:nth-child(4) {left:88px; top:34px;}
-    }
-    
-    @media (max-width: 1400px) {
-    #horizontalTab2 .resp-tabs-list li:first-child {left:70px; top:24px;}
-    #horizontalTab2 .resp-tabs-list li:nth-child(2) {left:75px; top:110px;}
-    #horizontalTab2 .resp-tabs-list li:nth-child(3) {left:258px; top:76px;}
-    #horizontalTab2 .resp-tabs-list li:nth-child(4) {left:90px; top:38px;}
-    }
-    
-    @media (max-width: 1200px) {
-    #horizontalTab2 .resp-tabs-list li:first-child {left:60px; top:25px;}
-    #horizontalTab2 .resp-tabs-list li:nth-child(2) {left:60px; top:94px;}
-    #horizontalTab2 .resp-tabs-list li:nth-child(3) {left:213px; top:64px;}
-    #horizontalTab2 .resp-tabs-list li:nth-child(4) {left:73px; top:34px;}
-    }
-    
-    @media (max-width: 992px) {
-    #horizontalTab2 .resp-tabs-list li:first-child {left:44px; top:16px;}
-    #horizontalTab2 .resp-tabs-list li:nth-child(2) {left:50px; top:75px;}
-    #horizontalTab2 .resp-tabs-list li:nth-child(3) {left:170px; top:49px;}
-    #horizontalTab2 .resp-tabs-list li:nth-child(4) {left:56px; top:25px;}
-    }
-    
-    @media (max-width: 768px) {
-    #horizontalTab2 .resp-tabs-list li:first-child {left:57px; top:24px;}
-    #horizontalTab2 .resp-tabs-list li:nth-child(2) {left:67px; top:106px;}
-    #horizontalTab2 .resp-tabs-list li:nth-child(3) {left:247px; top:72px;}
-    #horizontalTab2 .resp-tabs-list li:nth-child(4) {left:75px; top:35px;}
-    }
-    
-    @media (max-width: 576px) {
-    #horizontalTab2 .resp-tabs-list li:first-child {left:42px; top:21px;}
-    #horizontalTab2 .resp-tabs-list li:nth-child(2) {left:60px; top:91px;}
-    #horizontalTab2 .resp-tabs-list li:nth-child(3) {left:211px; top:60px;}
-    #horizontalTab2 .resp-tabs-list li:nth-child(4) {left:68px; top:33px;}
-    }
-    
-    @media (min-width: 768px) and (max-width:991px) {
-    #horizontalTab_cnt .resp-tabs-list li:first-child {position:absolute; left:47px; top:14px;}
-    #horizontalTab_cnt .resp-tabs-list li:nth-child(2) {position:absolute; left:170px; top:45px;}
-    #horizontalTab_cnt .resp-tabs-list li:nth-child(3) {position:absolute; left:49px; top:75px;}
-    #horizontalTab_cnt .resp-tabs-list li:nth-child(4) {position:absolute; left:60px; top:22px;}
-    }

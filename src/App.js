@@ -14,13 +14,18 @@ import CustomerReview from "./pages/CustomerReview";
 // import ScrollToTop from "./Components/ScrollToTop";
 import { useEffect } from "react";
 import { Helmet } from "react-helmet";
+// import Loader from "./Components/Loader";
 // import { useLocation } from "react-router-dom";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
   // console.log(pathname);
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'auto' // Use 'auto' for immediate scrolling without smooth animation
+    });
   }, [pathname]);
   return null;
 }
@@ -28,6 +33,31 @@ function ScrollToTop() {
 // export default ScrollToTop;
 
 function App() {
+  // const [loading, setLoading] = useState(true);
+  // const location = useLocation();
+
+  // useEffect(() => {
+  //   // Show loader when URL changes
+  //   setLoading(true);
+  // }, [location.pathname]); // Watch for changes in pathname
+
+  // useEffect(() => {
+  //   // Hide loader when page finishes loading
+  //   const handleLoad = () => setLoading(false);
+  //   window.addEventListener('load', handleLoad);
+
+  //   // Hide loader when page is scrolled
+  //   const handleScroll = () => {
+  //     setLoading(false);
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  //   window.addEventListener('scroll', handleScroll);
+
+  //   return () => {
+  //     window.removeEventListener('load', handleLoad);
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
   // const router = createBrowserRouter([
   //   {
   //     path: "/",
@@ -44,30 +74,30 @@ function App() {
     <>
     <Helmet>
     <title>Hire Pre-Vetted Remote Individuals or Build a Team | Sourcedesk</title>
-<meta name="description" content="Hire pre-vetted remote professionals or build your dream team effortlessly with Sourcedesk. Streamlined hiring, top 10% talent, and cutting-edge AI await." />
-<meta name="title" content="Hire Pre-Vetted Remote Individuals or Build a Team | Sourcedesk" />
-{/* <!-- Canonical & hrefLang --> */}
-<link rel="canonical" href="https://www.sourcedesk.io/" />
-<link rel="alternate" hrefLang="x-default" href="https://www.sourcedesk.io/" />
-<link rel="alternate" hrefLang="en-US" href="https://www.sourcedesk.io/" />
+    <meta name="description" content="Hire pre-vetted remote professionals or build your dream team effortlessly with Sourcedesk. Streamlined hiring, top 10% talent, and cutting-edge AI await." />
+    <meta name="title" content="Hire Pre-Vetted Remote Individuals or Build a Team | Sourcedesk" />
+    {/* <!-- Canonical & hrefLang --> */}
+    <link rel="canonical" href="https://www.sourcedesk.io/" />
+    <link rel="alternate" hrefLang="x-default" href="https://www.sourcedesk.io/" />
+    <link rel="alternate" hrefLang="en-US" href="https://www.sourcedesk.io/" />
 
-{/* <!-- Twitter Card meta tags --> */}
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@sourcedeskgl" />
-<meta name="twitter:title" content="Hire Pre-Vetted Remote Individuals or Build a Team | Sourcedesk" />
-<meta name="twitter:description" content="Hire pre-vetted remote professionals or build your dream team effortlessly with Sourcedesk. Streamlined hiring, top 10% talent, and cutting-edge AI await." />
-<meta name="twitter:image" content="https://www.sourcedesk.io/public/images/Twitter-1200x600.jpg" />
-{/* <!-- Facebook Open Graph tags --> */}
-<meta property="og:url" content="https://www.sourcedesk.io/" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Hire Pre-Vetted Remote Individuals or Build a Team | Sourcedesk" />
-<meta property="og:description" content="Hire pre-vetted remote professionals or build your dream team effortlessly with Sourcedesk. Streamlined hiring, top 10% talent, and cutting-edge AI await." />
-<meta property="og:image" content="https://www.sourcedesk.io/public/images/Fcebook-2400x1260.jpg" />
-{/* <!-- Additional Open Graph tags for better customization --> */}
-<meta property="og:image:width" content="2400" />
-<meta property="og:image:height" content="1260" />
-<meta property="og:image:alt" content="SourceDesk Global" />
-<meta property="og:locale" content="en_US" />
+    {/* <!-- Twitter Card meta tags --> */}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@sourcedeskgl" />
+    <meta name="twitter:title" content="Hire Pre-Vetted Remote Individuals or Build a Team | Sourcedesk" />
+    <meta name="twitter:description" content="Hire pre-vetted remote professionals or build your dream team effortlessly with Sourcedesk. Streamlined hiring, top 10% talent, and cutting-edge AI await." />
+    <meta name="twitter:image" content="https://www.sourcedesk.io/public/images/Twitter-1200x600.jpg" />
+    {/* <!-- Facebook Open Graph tags --> */}
+    <meta property="og:url" content="https://www.sourcedesk.io/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Hire Pre-Vetted Remote Individuals or Build a Team | Sourcedesk" />
+    <meta property="og:description" content="Hire pre-vetted remote professionals or build your dream team effortlessly with Sourcedesk. Streamlined hiring, top 10% talent, and cutting-edge AI await." />
+    <meta property="og:image" content="https://www.sourcedesk.io/public/images/Fcebook-2400x1260.jpg" />
+    {/* <!-- Additional Open Graph tags for better customization --> */}
+    <meta property="og:image:width" content="2400" />
+    <meta property="og:image:height" content="1260" />
+    <meta property="og:image:alt" content="SourceDesk Global" />
+    <meta property="og:locale" content="en_US" />
     {/* Organization Schema */}
     <script type="application/ld+json">{`
           {
@@ -143,10 +173,11 @@ function App() {
             "telephone": "1-888-445-3334",
             "url": "https://www.sourcedesk.io/",
             "openingHours": "N/A"
-          }
-        `}</script>
+            }
+            `}</script>
     </Helmet>
-    <ScrollToTop />
+            <ScrollToTop />
+    {/* {loading && <Loader />} */}
       <Header />
       <Routes>
         {/*<Route path="/" element={} />*/} {/* Scroll to top on every route change */}
