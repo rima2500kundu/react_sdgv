@@ -101,7 +101,7 @@ export default function BlogDetails() {
       <p>Adaptability and a commitment to continuous learning are essential in this rapidly evolving field. Additionally, strong communication and teamwork skills are vital for effective collaboration with diverse teams and stakeholders.</p>
       <p>In this post, we'll discuss the best qualities to seek in an AI developer so you can place the right candidate for your client’s needs.</p>
       <p>Let’s get started.</p>
-      <h2>Abilities to Consider in an AI Developer </h2> <img src="https://www.sourcedesk.io/public/images/abilities-to-consider-in-an-ai-developer.jpg" alt="ai ml development services" />
+      <h2>Abilities to Consider in an AI Developer </h2> <img src="images/abilities-to-consider-in-an-ai-developer.jpg" alt="ai ml development services" />
       <p>The study of artificial intelligence (AI) is expanding quickly. Indeed, it has the potential to completely transform a number of industries, so the need for qualified AI developers is growing as more businesses use this technology. </p>
       <p>In terms of hiring, it is critical to seek out certain abilities in a developer to make sure they can provide high-quality work. Here are the eight skills an AI developer must possess.</p>
       <h3>An Understanding of Programming Languages </h3>

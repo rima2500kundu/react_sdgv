@@ -8,8 +8,9 @@ export default function SiteMap() {
       <div className="col">
         <h1>Routes available</h1>
         <ul>
+          <li><span className="text-success">Status: OK</span>&nbsp;&nbsp;<NavLink to="/sitemap">Sitemap</NavLink></li>
           <li><span className="text-success">Status: OK</span>&nbsp;&nbsp;<NavLink to="/">Home</NavLink></li>
-          <li><span className="text-success">Status: OK</span>&nbsp;&nbsp;<NavLink to="/about">About</NavLink></li>
+          <li><span className="text-danger">Status: WO</span>&nbsp;&nbsp;<NavLink to="/about">About</NavLink></li>
           <li><span className="text-danger">Status: WO</span>&nbsp;&nbsp;<NavLink to="/distinctvettingprocess">Distinct Vetted</NavLink></li>
           <li><span className="text-success">Status: OK</span>&nbsp;&nbsp;<NavLink to="/react-js">React Js</NavLink></li>
           <li><span className="text-success">Status: OK</span>&nbsp;&nbsp;<NavLink to="/blogs">Blogs</NavLink></li>
