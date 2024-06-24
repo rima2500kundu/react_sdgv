@@ -1,4 +1,52 @@
 import { Helmet } from "react-helmet";
+import Slider from "react-slick";
+
+function SliderEventGallery() {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    appendDots: (dots) => (
+        <div>
+          <ul style={{ margin: "0px" }}> {dots} </ul>
+        </div>
+      ),
+      customPaging: (i) => (
+        <div
+          style={{
+            width: "10px",
+            height: "10px",
+            borderRadius: "50%",
+            backgroundColor: "#c2c2c2",
+          }}
+        ></div>
+      ),
+  };
+  return (
+    <div className="slider-container">
+        <Slider {...settings}>
+            <div>
+                <div className="img-wrapper-outer">
+                    <div className="img-wrapper"> <img src="images/quickbooks-toronto-lg-1.jpg" alt="" /> </div>
+                </div>
+            </div>
+            <div>
+                <div className="img-wrapper-outer">
+                    <div className="img-wrapper"> <img src="images/quickbooks-toronto-lg-1.jpg" alt="" /> </div>
+                </div>
+            </div>
+            <div>
+                <div className="img-wrapper-outer">
+                    <div className="img-wrapper"> <img src="images/quickbooks-toronto-lg-1.jpg" alt="" /> </div>
+                </div>
+            </div>
+        </Slider>
+    </div>
+  );
+}
 
 
 export default function EventDetails() {
@@ -20,6 +68,18 @@ export default function EventDetails() {
 
                 <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 inner_bnr_right"><img src="images/events-detail-hero.png" alt="graphics" /></div>
             </div>
+        </div>
+    </div>
+</section>
+
+<section className="full_width leadership_thaught fix_padding slider-events-details">
+    <div className="container">
+        <div className="text_controller text_controller_center">
+            <h2>Event Gallery</h2>  
+            <hr />      
+        </div>
+        <div className="events-detail" id="cmn_slider_btn">
+            <SliderEventGallery />
         </div>
     </div>
 </section>
